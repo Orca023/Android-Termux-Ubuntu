@@ -7,7 +7,7 @@
 
 二. 然後, 使用 Termux 終端模擬器安裝配置 Linux-Ubuntu 子作業系統應用.
 
-三. 最後, 在 Android → Termux → Ubuntu 系統下, 配置程式開發環境.
+三. 最後, 在 Android → Termux → Ubuntu 系統下, 配置計算機程式開發環境.
 </p>
 
 ---
