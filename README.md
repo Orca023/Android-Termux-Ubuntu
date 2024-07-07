@@ -22,11 +22,9 @@ Android-5.1.1 Termux-0.76 Ubuntu-20.04-LTS-rootfs-armhf MSM8916-Snapdragon410
 
 ---
 
-
-
 ![]()
 
-
+---
 
 [F-Droid 應用商店官方網站](https://f-droid.org/): 
 https://f-droid.org/
@@ -79,7 +77,7 @@ https://developer.aliyun.com/mirror/ubuntu
 [Linux - Ubuntu 作業系統之 armhf 架構的的應用 ( packages ) 庫下載之合肥中國科學技術大學鏡像源](http://mirrors.ustc.edu.cn/ubuntu-ports/): 
 http://mirrors.ustc.edu.cn/ubuntu-ports/
 
-Compiler:
+Compiler :
 
 GCC, the GNU Compiler Collection
 
