@@ -3,9 +3,9 @@
 #### Android → Termux → Ubuntu : GCC , Node.js , Python , Julia , Go , Code-Server , Jupyter , MariaDB , tmux
 ---
 <p word-wrap: break-word; word-break: break-all; overflow-x: hidden; overflow-x: hidden;>
-一. 首先, 智能電話 Android 系統安裝 Termux 子系統.
+一. 首先, 智能電話 Android 作業系統安裝 Termux 子作業系統終端模擬器應用.
 
-二. 然後, 使用 Termux 系統安裝配置 Linux-Ubuntu 子系統.
+二. 然後, 使用 Termux 終端模擬器安裝配置 Linux-Ubuntu 子作業系統應用.
 
 三. 最後, 在 Android → Termux → Ubuntu 系統下, 配置程式開發環境.
 </p>
