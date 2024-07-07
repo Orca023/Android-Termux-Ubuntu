@@ -1,6 +1,6 @@
 ## Android → Termux → Ubuntu
-#### Android → Termux : C , Node.js , Wcode , Python , Jupyter , tmux
-#### Android → Termux → Ubuntu : C , Node.js , Python , Julia , Go , Code-Server , Jupyter , MariaDB , tmux
+#### Android → Termux : CLang , Node.js , Wcode , Python , Jupyter , tmux
+#### Android → Termux → Ubuntu : GCC , Node.js , Python , Julia , Go , Code-Server , Jupyter , MariaDB , tmux
 ---
 <p word-wrap: break-word; word-break: break-all; overflow-x: hidden; overflow-x: hidden;>
 一. 首先, 智能電話 Android 系統安裝 Termux 子系統.
