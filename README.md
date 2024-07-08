@@ -275,7 +275,7 @@ jupyter - 6.5.3
 
 10. 然後, 在智能電話 google-pixel-2 搭載的 android-11 → termux-0.118 作業系統 ( Operating System ) 終端模擬器 ( Terminal Emulator ) 中, 執行如下指令, 退出 Termux-0.118 作業系統 ( Operating System ) 終端模擬器 ( Terminal Emulator ) 返回至 Android-11 作業系統 ( Operating System ) 桌面 :
 
-   /data/data/com.termux/files $ exit
+    /data/data/com.termux/files $ exit
 
 11. 最後, 在智能電話 google-pixel-2 搭載的 Android-11 系統中, 重新啓動已經安裝配置成功的 Termux-0.118 作業系統 ( Operating System ) 終端模擬器 ( Terminal Emulator ) 應用 ( Termux ) 即可 :
 
@@ -495,35 +495,35 @@ Gadfly = "1.4.0"
 
 10. 然後, 在智能電話 google-pixel-2 搭載的 android-11 → termux-0.118 作業系統 ( Operating System ) 終端模擬器 ( Terminal Emulator ) 中, 執行如下指令, 即可啓動 Ubuntu-22.04-rootfs-arm64 作業系統 ( Operating System ) 並進入 Ubuntu-bash 控制臺命令列對話窗口 :
 
-   ~ $ /data/data/com.termux/files/home/start-ubuntu.sh
+    ~ $ /data/data/com.termux/files/home/start-ubuntu.sh
 
 11. 然後, 在智能電話 google-pixel-2 搭載的 android-11 → termux-0.118 → ubuntu-22.04 作業系統 ( Operating System ) 控制臺 ( Bash ) 窗口中, 執行如下指令, 即可啓動 code-server 代碼編輯器伺服器應用 :
 
-   root@localhost:~# /usr/bin/code-server --disable-telemetry --show-versions --auth none --extensions-dir /root/.local/share/code-server/extensions/ --user-data-dir /root/.local/share/code-server/ --config /root/.config/code-server/config.yaml --host 0.0.0.0 --port 8080
+    root@localhost:~# /usr/bin/code-server --disable-telemetry --show-versions --auth none --extensions-dir /root/.local/share/code-server/extensions/ --user-data-dir /root/.local/share/code-server/ --config /root/.config/code-server/config.yaml --host 0.0.0.0 --port 8080
 
-   然後, 在瀏覽器 ( Browser ) 地址欄輸入「 http://[::1]:8080/ 」即可鏈接到已經啓動的 code-server 代碼編輯器伺服器, 遠程編寫調試代碼.
+    然後, 在瀏覽器 ( Browser ) 地址欄輸入「 http://[::1]:8080/ 」即可鏈接到已經啓動的 code-server 代碼編輯器伺服器, 遠程編寫調試代碼.
 
-   在智能電話 google-pixel-2 搭載的 android-11 → termux-0.118 → ubuntu-22.04 作業系統 ( Operating System ) 控制臺 ( Bash ) 窗口中, 執行如下指令, 鍵盤同時輸入「 Ctrl 」+「 c 」鍵, 即可關閉 code-server 代碼編輯器伺服器, 返回至 Ubuntu-22.04 作業系統 ( Operating System ) 控制臺 ( Bash ) 命令列對話窗口.
+    在智能電話 google-pixel-2 搭載的 android-11 → termux-0.118 → ubuntu-22.04 作業系統 ( Operating System ) 控制臺 ( Bash ) 窗口中, 執行如下指令, 鍵盤同時輸入「 Ctrl 」+「 c 」鍵, 即可關閉 code-server 代碼編輯器伺服器, 返回至 Ubuntu-22.04 作業系統 ( Operating System ) 控制臺 ( Bash ) 命令列對話窗口.
 
 12. 然後, 在智能電話 google-pixel-2 搭載的 android-11 → termux-0.118 → ubuntu-22.04 作業系統 ( Operating System ) 控制臺 ( Bash ) 窗口中, 執行如下指令, 即可啓動 jupyter 運算伺服器應用 :
 
-   root@localhost:~# /root/.local/bin/jupyter-notebook --allow-root --no-browser --config="/root/.jupyter/jupyter_notebook_config.py" --ip="0.0.0.0" --port="8888" --notebook-dir="/home/"
+    root@localhost:~# /root/.local/bin/jupyter-notebook --allow-root --no-browser --config="/root/.jupyter/jupyter_notebook_config.py" --ip="0.0.0.0" --port="8888" --notebook-dir="/home/"
 
-   然後, 在瀏覽器 ( Browser ) 地址欄輸入「 http://[::1]:8888/ 」即可鏈接到已經啓動的 jupyter 運算伺服器, 遠程編寫調試代碼.
+    然後, 在瀏覽器 ( Browser ) 地址欄輸入「 http://[::1]:8888/ 」即可鏈接到已經啓動的 jupyter 運算伺服器, 遠程編寫調試代碼.
 
-   在智能電話 google-pixel-2 搭載的 android-11 → termux-0.118 → ubuntu-22.04 作業系統 ( Operating System ) 控制臺 ( Bash ) 窗口中, 執行如下指令, 鍵盤同時輸入「 Ctrl 」+「 c 」鍵, 即可關閉 jupyter 運算伺服器, 返回至 Ubuntu-22.04 作業系統 ( Operating System ) 控制臺 ( Bash ) 命令列對話窗口.
+    在智能電話 google-pixel-2 搭載的 android-11 → termux-0.118 → ubuntu-22.04 作業系統 ( Operating System ) 控制臺 ( Bash ) 窗口中, 執行如下指令, 鍵盤同時輸入「 Ctrl 」+「 c 」鍵, 即可關閉 jupyter 運算伺服器, 返回至 Ubuntu-22.04 作業系統 ( Operating System ) 控制臺 ( Bash ) 命令列對話窗口.
 
 13. 然後, 在智能電話 google-pixel-2 搭載的 android-11 → termux-0.118 → ubuntu-22.04 作業系統 ( Operating System ) 控制臺 ( Bash ) 窗口中, 執行如下指令, 即可在後臺非阻塞啓動 MariaDB 資料庫伺服器應用 :
 
-   root@localhost:~# /etc/init.d/mariadb start
+    root@localhost:~# /etc/init.d/mariadb start
 
-   在智能電話 google-pixel-2 搭載的 android-11 → termux-0.118 → ubuntu-22.04 作業系統 ( Operating System ) 控制臺 ( Bash ) 窗口中, 執行如下指令, 即可關閉 MariaDB 資料庫伺服器應用 :
+    在智能電話 google-pixel-2 搭載的 android-11 → termux-0.118 → ubuntu-22.04 作業系統 ( Operating System ) 控制臺 ( Bash ) 窗口中, 執行如下指令, 即可關閉 MariaDB 資料庫伺服器應用 :
 
-   root@localhost:~# /etc/init.d/mariadb stop
+    root@localhost:~# /etc/init.d/mariadb stop
 
 14. 然後, 在智能電話 google-pixel-2 搭載的 android-11 → termux-0.118 → ubuntu-22.04 作業系統 ( Operating System ) 控制臺 ( Bash ) 窗口中, 執行如下指令, 即可退出 Ubuntu-22.04-rootfs-arm64 作業系統 ( Operating System ) 返回至 Termux-0.118 作業系統 ( Operating System ) 終端模擬器 ( Terminal Emulator ) 中 :
 
-   root@localhost:~# exit
+    root@localhost:~# exit
 
 15. 然後, 在智能電話 google-pixel-2 搭載的 android-11 → termux-0.118 作業系統 ( Operating System ) 終端模擬器 ( Terminal Emulator ) 中, 執行如下指令, 退出 termux-0.118 作業系統 ( Operating System ) 終端模擬器 ( Terminal Emulator ) 返回至 android-11 作業系統 ( Operating System ) 桌面 :
 
