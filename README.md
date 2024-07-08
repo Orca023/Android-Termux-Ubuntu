@@ -525,9 +525,11 @@ Gadfly = "1.4.0"
 
     root@localhost:~# exit
 
-15. 然後, 在智能電話 google-pixel-2 搭載的 android-11 → termux-0.118 作業系統 ( Operating System ) 終端模擬器 ( Terminal Emulator ) 中, 執行如下指令, 退出 termux-0.118 作業系統 ( Operating System ) 終端模擬器 ( Terminal Emulator ) 返回至 android-11 作業系統 ( Operating System ) 桌面 :
+15. 然後, 在智能電話 google-pixel-2 搭載的 android-11 → termux-0.118 作業系統 ( Operating System ) 終端模擬器 ( Terminal Emulator ) 中, 執行如下指令, 退出 Termux-0.118 作業系統 ( Operating System ) 終端模擬器 ( Terminal Emulator ) 返回至 Android-11 作業系統 ( Operating System ) 桌面 :
 
    ~ $ exit
+
+返回至 Android-11 作業系統 ( Operating System ) 桌面.
 
 三. 其中, 壓縮檔「 android-5.1.1_termux-0.75_armhf.tar.gz 」是 armhf 架構 Termux-0.75 作業系統 ( Operating System ) 終端模擬器 ( Terminal Emulator ) 的兩個文件夾「 /data/data/com.termux/files/home/ 」和「 /data/data/com.termux/files/usr/ 」的壓縮檔, 壓縮檔裏已經配置的應用如下 :
 
