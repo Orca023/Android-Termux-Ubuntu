@@ -221,9 +221,9 @@ python-pip - 24.0
 
 python - pip - packages :
 
-jupyter - 6.5.3
-
 tk
+
+jupyter - 6.5.3
 
 壓縮檔「 google-pixel-2_android-11_termux-0.118_arm64.tar.gz 」使用説明 :
 
