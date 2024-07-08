@@ -527,7 +527,7 @@ Gadfly = "1.4.0"
 
 15. 然後, 在智能電話 google-pixel-2 搭載的 android-11 → termux-0.118 作業系統 ( Operating System ) 終端模擬器 ( Terminal Emulator ) 中, 執行如下指令, 退出 Termux-0.118 作業系統 ( Operating System ) 終端模擬器 ( Terminal Emulator ) 返回至 Android-11 作業系統 ( Operating System ) 桌面 :
 
-   ~ $ exit
+    ~ $ exit
 
 返回至 Android-11 作業系統 ( Operating System ) 桌面.
 
