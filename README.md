@@ -531,7 +531,17 @@ Gadfly = "1.4.0"
 
 返回至 Android-11 作業系統 ( Operating System ) 桌面.
 
-三. 其中, 壓縮檔「 android-5.1.1_termux-0.75_armhf.tar.gz 」是 armhf 架構 Termux-0.75 作業系統 ( Operating System ) 終端模擬器 ( Terminal Emulator ) 的兩個文件夾「 /data/data/com.termux/files/home/ 」和「 /data/data/com.termux/files/usr/ 」的壓縮檔, 壓縮檔裏已經配置的應用如下 :
+百度網盤裏的壓縮檔 :
+
+android-5.1.1_termux-0.75_armhf.tar.gz
+
+和
+
+android-5.1.1_termux-0.75_ubuntu-20.04-LTS-rootfs_armhf.tar.gz
+
+是已經配置完成的 : 智能電話 samsung-galaxy-nexus 搭載 armhf 架構 android-5.1.1 → termux-0.75 → ubuntu-20.04 作業系統 ( Operating System ).
+
+一. 其中, 壓縮檔「 android-5.1.1_termux-0.75_armhf.tar.gz 」是 armhf 架構 Termux-0.75 作業系統 ( Operating System ) 終端模擬器 ( Terminal Emulator ) 的兩個文件夾「 /data/data/com.termux/files/home/ 」和「 /data/data/com.termux/files/usr/ 」的壓縮檔, 壓縮檔裏已經配置的應用如下 :
 
 proot
 
@@ -549,7 +559,7 @@ sshpen
 
 使用過程如壓縮檔「 google-pixel-2_android-11_termux-0.118_arm64.tar.gz 」類似.
 
-四. 其中, 壓縮檔「 android-5.1.1_termux-0.75_ubuntu-20.04-LTS-rootfs_armhf.tar.gz 」是 armhf 架構 Termux-0.75 作業系統 ( Operating System ) 終端模擬器 ( Terminal Emulator ) 的子系統 Ubuntu-20.04-rootfs-armhf 作業系統 ( Operating System ) 的一個批處理 ( Bash ) 脚本「 /data/data/com.termux/files/home/start-ubuntu.sh 」啓動檔和兩個文件夾「 /data/data/com.termux/files/home/ubuntu-fs/ 」和「 /data/data/com.termux/files/home/ubuntu-binds/ 」的壓縮檔, 壓縮檔裏已經配置的應用如下 :
+二. 其中, 壓縮檔「 android-5.1.1_termux-0.75_ubuntu-20.04-LTS-rootfs_armhf.tar.gz 」是 armhf 架構 Termux-0.75 作業系統 ( Operating System ) 終端模擬器 ( Terminal Emulator ) 的子系統 Ubuntu-20.04-rootfs-armhf 作業系統 ( Operating System ) 的一個批處理 ( Bash ) 脚本「 /data/data/com.termux/files/home/start-ubuntu.sh 」啓動檔和兩個文件夾「 /data/data/com.termux/files/home/ubuntu-fs/ 」和「 /data/data/com.termux/files/home/ubuntu-binds/ 」的壓縮檔, 壓縮檔裏已經配置的應用如下 :
 
 gcc
 
