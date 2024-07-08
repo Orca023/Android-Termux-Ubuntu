@@ -22,10 +22,6 @@ Android-5.1.1 Termux-0.76 Ubuntu-20.04-LTS-rootfs-armhf MSM8916-Snapdragon410
 
 ---
 
-![]()
-
----
-
 [F-Droid 應用商店官方網站](https://f-droid.org/): 
 https://f-droid.org/
 
@@ -164,3 +160,9 @@ https://github.com/JuliaRegistries/General.git
 https://pan.baidu.com/s/1sCS63lDJG0hX6yadYEhK5A?pwd=2qq8
 
 提取碼：2qq8
+
+---
+
+
+
+![]()
