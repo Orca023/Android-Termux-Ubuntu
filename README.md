@@ -163,7 +163,7 @@ https://pan.baidu.com/s/1sCS63lDJG0hX6yadYEhK5A?pwd=2qq8
 
 ---
 
-百度網盤中的壓縮檔 :
+百度網盤裏的壓縮檔 :
 
 google-pixel-2_android-11_termux-0.118_arm64.tar.gz
 
@@ -171,9 +171,9 @@ google-pixel-2_android-11_termux-0.118_arm64.tar.gz
 
 google-pixel-2_android-11_termux-0.118_ubuntu-22.04-LTS-rootfs_arm64.tar.gz
 
-是已經配置完畢的作業系統 ( Operating System ) 壓縮檔 : 智能電話 google-pixel-2 搭載 arm64 架構 android-11 → termux-0.118 → ubuntu-22.04 作業系統 ( Operating System ).
+是已經配置完成的 : 智能電話 google-pixel-2 搭載 arm64 架構 android-11 → termux-0.118 → ubuntu-22.04 作業系統 ( Operating System ).
 
-一. 其中, 壓縮檔「 google-pixel-2_android-11_termux-0.118_arm64.tar.gz 」是 Termux-0.118 作業系統 ( Operating System ) 終端模擬器 ( Terminal Emulator ) 的兩個文件夾「 /data/data/com.termux/files/home/ 」和「 /data/data/com.termux/files/usr/ 」的壓縮檔, 壓縮檔裏已經配置的應用如下 :
+一. 其中, 壓縮檔「 google-pixel-2_android-11_termux-0.118_arm64.tar.gz 」是 arm64 架構 Termux-0.118 作業系統 ( Operating System ) 終端模擬器 ( Terminal Emulator ) 的兩個文件夾「 /data/data/com.termux/files/home/ 」和「 /data/data/com.termux/files/usr/ 」的壓縮檔, 壓縮檔裏已經配置的應用如下 :
 
 apt
 
@@ -279,7 +279,7 @@ jupyter - 6.5.3
 
 11. 最後, 在智能電話 google-pixel-2 搭載的 Android-11 系統中, 重新啓動已經安裝配置成功的 Termux-0.118 作業系統 ( Operating System ) 終端模擬器 ( Terminal Emulator ) 應用 ( Termux ) 即可 :
 
-二. 其中, 壓縮檔「 google-pixel-2_android-11_termux-0.118_ubuntu-22.04-LTS-rootfs_arm64.tar.gz 」是 Termux-0.118 作業系統 ( Operating System ) 終端模擬器 ( Terminal Emulator ) 的子系統 Ubuntu-22.04-rootfs-arm64 作業系統 ( Operating System ) 的一個批處理 ( Bash ) 脚本「 /data/data/com.termux/files/home/start-ubuntu.sh 」啓動檔和兩個文件夾「 /data/data/com.termux/files/home/ubuntu-fs/ 」和「 /data/data/com.termux/files/home/ubuntu-binds/ 」的壓縮檔, 壓縮檔裏已經配置的應用如下 :
+二. 其中, 壓縮檔「 google-pixel-2_android-11_termux-0.118_ubuntu-22.04-LTS-rootfs_arm64.tar.gz 」是 arm64 架構 Termux-0.118 作業系統 ( Operating System ) 終端模擬器 ( Terminal Emulator ) 的子系統 Ubuntu-22.04-rootfs-arm64 作業系統 ( Operating System ) 的一個批處理 ( Bash ) 脚本「 /data/data/com.termux/files/home/start-ubuntu.sh 」啓動檔和兩個文件夾「 /data/data/com.termux/files/home/ubuntu-fs/ 」和「 /data/data/com.termux/files/home/ubuntu-binds/ 」的壓縮檔, 壓縮檔裏已經配置的應用如下 :
 
 gcc - 11.3.0
 
