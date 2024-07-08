@@ -173,7 +173,7 @@ google-pixel-2_android-11_termux-0.118_ubuntu-22.04-LTS-rootfs_arm64.tar.gz
 
 是已經配置完畢的作業系統 ( Operating System ) 壓縮檔 : 智能電話 google-pixel-2 搭載 arm64 架構 android-11 → termux-0.118 → ubuntu-22.04 作業系統 ( Operating System ).
 
-其中壓縮檔「 google-pixel-2_android-11_termux-0.118_arm64.tar.gz 」是 Termux-0.118 作業系統 ( Operating System ) 終端模擬器 ( Terminal Emulator ) 的兩個文件夾「 /data/data/com.termux/files/home/ 」和「 /data/data/com.termux/files/usr/ 」的壓縮檔, 壓縮檔裏已經配置的應用如下 :
+一. 其中, 壓縮檔「 google-pixel-2_android-11_termux-0.118_arm64.tar.gz 」是 Termux-0.118 作業系統 ( Operating System ) 終端模擬器 ( Terminal Emulator ) 的兩個文件夾「 /data/data/com.termux/files/home/ 」和「 /data/data/com.termux/files/usr/ 」的壓縮檔, 壓縮檔裏已經配置的應用如下 :
 
 apt
 
@@ -279,7 +279,7 @@ jupyter - 6.5.3
 
 11. 最後, 在智能電話 google-pixel-2 搭載的 Android-11 系統中, 重新啓動已經安裝配置成功的 Termux-0.118 作業系統 ( Operating System ) 終端模擬器 ( Terminal Emulator ) 應用 ( Termux ) 即可 :
 
-其中壓縮檔「 google-pixel-2_android-11_termux-0.118_ubuntu-22.04-LTS-rootfs_arm64.tar.gz 」是 Termux-0.118 作業系統 ( Operating System ) 終端模擬器 ( Terminal Emulator ) 的子系統 Ubuntu-22.04-rootfs-arm64 作業系統 ( Operating System ) 的一個批處理 ( Bash ) 脚本「 /data/data/com.termux/files/home/start-ubuntu.sh 」啓動檔和兩個文件夾「 /data/data/com.termux/files/home/ubuntu-fs/ 」和「 /data/data/com.termux/files/home/ubuntu-binds/ 」的壓縮檔, 壓縮檔裏已經配置的應用如下 :
+二. 其中, 壓縮檔「 google-pixel-2_android-11_termux-0.118_ubuntu-22.04-LTS-rootfs_arm64.tar.gz 」是 Termux-0.118 作業系統 ( Operating System ) 終端模擬器 ( Terminal Emulator ) 的子系統 Ubuntu-22.04-rootfs-arm64 作業系統 ( Operating System ) 的一個批處理 ( Bash ) 脚本「 /data/data/com.termux/files/home/start-ubuntu.sh 」啓動檔和兩個文件夾「 /data/data/com.termux/files/home/ubuntu-fs/ 」和「 /data/data/com.termux/files/home/ubuntu-binds/ 」的壓縮檔, 壓縮檔裏已經配置的應用如下 :
 
 gcc - 11.3.0
 
@@ -529,32 +529,11 @@ Gadfly = "1.4.0"
 
    ~ $ exit
 
-
-
-
-其中壓縮檔「 android-5.1.1_termux-0.75_armhf.tar.gz 」是 armhf 架構 Termux-0.75 作業系統 ( Operating System ) 終端模擬器 ( Terminal Emulator ) 的兩個文件夾「 /data/data/com.termux/files/home/ 」和「 /data/data/com.termux/files/usr/ 」的壓縮檔, 壓縮檔裏已經配置的應用如下 :
-
-apt
-
-pkg-config
-
-tsu
+三. 其中, 壓縮檔「 android-5.1.1_termux-0.75_armhf.tar.gz 」是 armhf 架構 Termux-0.75 作業系統 ( Operating System ) 終端模擬器 ( Terminal Emulator ) 的兩個文件夾「 /data/data/com.termux/files/home/ 」和「 /data/data/com.termux/files/usr/ 」的壓縮檔, 壓縮檔裏已經配置的應用如下 :
 
 proot
 
-termux-exec
-
-openssl-tool
-
-busybox
-
-bash
-
-proot-distro
-
 clang
-
-make
 
 nano
 
@@ -562,40 +541,118 @@ wget
 
 git
 
-curl
-
-dpkg
-
-tar
-
 tmux
 
-net-tools
-
-openssh
-
-python - 3.11.9
-
-python-pip - 24.0
-
-python - pip - packages :
-
-tk
-
-jupyter - 6.5.3
+sshpen
 
 使用過程與壓縮檔「 google-pixel-2_android-11_termux-0.118_arm64.tar.gz 」類似.
 
+四. 其中, 壓縮檔「 android-5.1.1_termux-0.75_ubuntu-20.04-LTS-rootfs_armhf.tar.gz 」是 armhf 架構 Termux-0.75 作業系統 ( Operating System ) 終端模擬器 ( Terminal Emulator ) 的子系統 Ubuntu-20.04-rootfs-armhf 作業系統 ( Operating System ) 的一個批處理 ( Bash ) 脚本「 /data/data/com.termux/files/home/start-ubuntu.sh 」啓動檔和兩個文件夾「 /data/data/com.termux/files/home/ubuntu-fs/ 」和「 /data/data/com.termux/files/home/ubuntu-binds/ 」的壓縮檔, 壓縮檔裏已經配置的應用如下 :
 
+gcc
 
+gfortran
 
+g++
 
+nano
 
+wget
 
+git
 
+tmux
 
-android-5.1.1_termux-0.75_armhf.tar.gz
+libffi-dev
 
-android-5.1.1_termux-0.75__ubuntu-22.04-LTS_rootfs_armhf.tar.gz
+libxml2
+
+libxslt–dev
+
+golang-go
+
+openssh-server
+
+openssh-client
+
+net-tools
+
+LSB(Linux Standard Base)
+
+code-server
+
+python3
+
+python3-dev
+
+python3-venv
+
+python3-tk
+
+python3-numpy
+
+python3-matplotlib
+
+python3-scipy
+
+python3-pandas
+
+python3-statsmodels
+
+python3-sklearn
+
+python3-h5py
+
+python3-tqdm
+
+python3-pip
+
+python - pip - packages :
+
+jupyter-notebook
+
+jupyter-lab
+
+jupyter_contrib_nbextensions
+
+emcee
+
+factor_analyzer
+
+pyinstaller
+
+nodejs
+
+npm
+
+nodejs - npm - packages :
+
+pkg
+
+ijavascript
+
+julia
+
+julia - Pkg - packages :
+
+IJulia
+
+Gadfly
+
+DataFrames
+
+Images
+
+CSV
+
+JSON
+
+JLD
+
+LsqFit
+
+packagecomplier
+
+使用過程與壓縮檔「 google-pixel-2_android-11_termux-0.118_ubuntu-22.04-LTS-rootfs_arm64.tar.gz 」類似.
 
 ![]()
