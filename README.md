@@ -215,15 +215,15 @@ net-tools
 
 openssh
 
-python - 3.10
+python - 3.11.9
 
-python-pip
+python-pip - 24.0
 
 python - pip - packages :
 
-    jupyter
+jupyter - 6.5.3
 
-    tk
+tk
 
 壓縮檔「 google-pixel-2_android-11_termux-0.118_arm64.tar.gz 」使用説明 :
 
