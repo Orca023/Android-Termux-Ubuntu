@@ -221,9 +221,9 @@ python-pip - 24.0
 
 python - pip - packages :
 
-&nbsp;&nbsp;tk
+&nbsp;&nbsp;&nbsp;&nbsp;jupyter - 6.5.3
 
-&nbsp;&nbsp;jupyter - 6.5.3
+&nbsp;&nbsp;&nbsp;&nbsp;tk
 
 壓縮檔「 google-pixel-2_android-11_termux-0.118_arm64.tar.gz 」使用説明 :
 
@@ -355,95 +355,95 @@ python3-pip ( v22.0.2 )
 
 python - pip - packages :
 
-tinydb
+&nbsp;&nbsp;&nbsp;&nbsp;tinydb
 
-jupyter - 6.5.3
+&nbsp;&nbsp;&nbsp;&nbsp;jupyter - 6.5.3
 
-jupyterlab - 3.6.1
+&nbsp;&nbsp;&nbsp;&nbsp;jupyterlab - 3.6.1
 
-jupyter_contrib_nbextensions
+&nbsp;&nbsp;&nbsp;&nbsp;jupyter_contrib_nbextensions
 
-jupyter_nbextensions_configurator
+&nbsp;&nbsp;&nbsp;&nbsp;jupyter_nbextensions_configurator
 
-pyinstaller
+&nbsp;&nbsp;&nbsp;&nbsp;pyinstaller
 
-mariadb
+&nbsp;&nbsp;&nbsp;&nbsp;mariadb
 
-pyarrow
+&nbsp;&nbsp;&nbsp;&nbsp;pyarrow
 
-openpyxl
+&nbsp;&nbsp;&nbsp;&nbsp;openpyxl
 
-xlrd
+&nbsp;&nbsp;&nbsp;&nbsp;xlrd
 
-pymc3
+&nbsp;&nbsp;&nbsp;&nbsp;pymc3
 
-emcee
+&nbsp;&nbsp;&nbsp;&nbsp;emcee
 
-scikit-fuzzy
+&nbsp;&nbsp;&nbsp;&nbsp;scikit-fuzzy
 
-SALib
+&nbsp;&nbsp;&nbsp;&nbsp;SALib
 
-nashpy
+&nbsp;&nbsp;&nbsp;&nbsp;nashpy
 
-sympy
+&nbsp;&nbsp;&nbsp;&nbsp;sympy
 
-factor_analyzer
+&nbsp;&nbsp;&nbsp;&nbsp;factor_analyzer
 
-dtreeviz
+&nbsp;&nbsp;&nbsp;&nbsp;dtreeviz
 
-pytesseract
+&nbsp;&nbsp;&nbsp;&nbsp;pytesseract
 
-shap
+&nbsp;&nbsp;&nbsp;&nbsp;shap
 
-tensorflow
+&nbsp;&nbsp;&nbsp;&nbsp;tensorflow
 
 julia ( julia-1.10.3-linux-aarch64.tar.gz ) ( /usr/julia/julia-1.10.3/bin/julia ) ( ln -s  /bin/julia ) ( /root/.julia/config/startup.jl ) ( /root/.julia/packages/ )
 
 julia - Pkg - packages :
 
-Images = "0.26.1"
+&nbsp;&nbsp;&nbsp;&nbsp;Images = "0.26.1"
 
-Plots = "1.40.4"
+&nbsp;&nbsp;&nbsp;&nbsp;Plots = "1.40.4"
 
-IJulia = "1.24.2"
+&nbsp;&nbsp;&nbsp;&nbsp;IJulia = "1.24.2"
 
-DifferentialEquations = "7.13.0"
+&nbsp;&nbsp;&nbsp;&nbsp;DifferentialEquations = "7.13.0"
 
-Symbolics = "5.14.1"
+&nbsp;&nbsp;&nbsp;&nbsp;Symbolics = "5.14.1"
 
-DataFrames = "1.6.1"
+&nbsp;&nbsp;&nbsp;&nbsp;DataFrames = "1.6.1"
 
-Distributions = "0.25.109"
+&nbsp;&nbsp;&nbsp;&nbsp;Distributions = "0.25.109"
 
-Interpolations = "0.15.1"
+&nbsp;&nbsp;&nbsp;&nbsp;Interpolations = "0.15.1"
 
-LsqFit = "0.15.0"
+&nbsp;&nbsp;&nbsp;&nbsp;LsqFit = "0.15.0"
 
-MultivariateStats = "0.10.3"
+&nbsp;&nbsp;&nbsp;&nbsp;MultivariateStats = "0.10.3"
 
-Optim = "1.9.4"
+&nbsp;&nbsp;&nbsp;&nbsp;Optim = "1.9.4"
 
-TimeSeries = "0.24.2"
+&nbsp;&nbsp;&nbsp;&nbsp;TimeSeries = "0.24.2"
 
-HTTP = "1.10.8"
+&nbsp;&nbsp;&nbsp;&nbsp;HTTP = "1.10.8"
 
-JLD = "0.13.5"
+&nbsp;&nbsp;&nbsp;&nbsp;JLD = "0.13.5"
 
-CSV = "0.10.14"
+&nbsp;&nbsp;&nbsp;&nbsp;CSV = "0.10.14"
 
-XLSX = "0.10.1"
+&nbsp;&nbsp;&nbsp;&nbsp;XLSX = "0.10.1"
 
-JSON = "0.21.4"
+&nbsp;&nbsp;&nbsp;&nbsp;JSON = "0.21.4"
 
-StructTypes = "1.10.0"
+&nbsp;&nbsp;&nbsp;&nbsp;StructTypes = "1.10.0"
 
-JSON3 = "1.14.0"
+&nbsp;&nbsp;&nbsp;&nbsp;JSON3 = "1.14.0"
 
-Cairo = "1.0.5"
+&nbsp;&nbsp;&nbsp;&nbsp;Cairo = "1.0.5"
 
-Fontconfig = "0.4.1"
+&nbsp;&nbsp;&nbsp;&nbsp;Fontconfig = "0.4.1"
 
-Gadfly = "1.4.0"
+&nbsp;&nbsp;&nbsp;&nbsp;Gadfly = "1.4.0"
 
 壓縮檔「 google-pixel-2_android-11_termux-0.118_ubuntu-22.04-LTS-rootfs_arm64.tar.gz 」使用説明 :
 
@@ -621,17 +621,17 @@ python3-pip
 
 python - pip - packages :
 
-jupyter-notebook
+&nbsp;&nbsp;&nbsp;&nbsp;jupyter-notebook
 
-jupyter-lab
+&nbsp;&nbsp;&nbsp;&nbsp;jupyter-lab
 
-jupyter_contrib_nbextensions
+&nbsp;&nbsp;&nbsp;&nbsp;jupyter_contrib_nbextensions
 
-emcee
+&nbsp;&nbsp;&nbsp;&nbsp;emcee
 
-factor_analyzer
+&nbsp;&nbsp;&nbsp;&nbsp;factor_analyzer
 
-pyinstaller
+&nbsp;&nbsp;&nbsp;&nbsp;pyinstaller
 
 nodejs
 
@@ -639,31 +639,31 @@ npm
 
 nodejs - npm - packages :
 
-pkg
+&nbsp;&nbsp;&nbsp;&nbsp;pkg
 
-ijavascript
+&nbsp;&nbsp;&nbsp;&nbsp;ijavascript
 
 julia
 
 julia - Pkg - packages :
 
-IJulia
+&nbsp;&nbsp;&nbsp;&nbsp;IJulia
 
-Gadfly
+&nbsp;&nbsp;&nbsp;&nbsp;Gadfly
 
-DataFrames
+&nbsp;&nbsp;&nbsp;&nbsp;DataFrames
 
-Images
+&nbsp;&nbsp;&nbsp;&nbsp;Images
 
-CSV
+&nbsp;&nbsp;&nbsp;&nbsp;CSV
 
-JSON
+&nbsp;&nbsp;&nbsp;&nbsp;JSON
 
-JLD
+&nbsp;&nbsp;&nbsp;&nbsp;JLD
 
-LsqFit
+&nbsp;&nbsp;&nbsp;&nbsp;LsqFit
 
-packagecomplier
+&nbsp;&nbsp;&nbsp;&nbsp;packagecomplier
 
 使用過程如壓縮檔「 google-pixel-2_android-11_termux-0.118_ubuntu-22.04-LTS-rootfs_arm64.tar.gz 」類似.
 
