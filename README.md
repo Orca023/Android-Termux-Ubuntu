@@ -531,6 +531,8 @@ julia - Pkg - packages :
 
 返回至 Android-11 作業系統 ( Operating System ) 桌面.
 
+---
+
 百度網盤裏的壓縮檔 :
 
 android-5.1.1_termux-0.75_armhf.tar.gz
@@ -667,5 +669,6 @@ julia - Pkg - packages :
 
 使用過程如壓縮檔「 google-pixel-2_android-11_termux-0.118_ubuntu-22.04-LTS-rootfs_arm64.tar.gz 」類似.
 
+---
 
 ![]()
