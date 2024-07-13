@@ -16,9 +16,9 @@ Operating System :
 
 Google-Pixel
 
-Android-11 Termux-0.118 Ubuntu-22.04-LTS-rootfs Arm64-aarch64 MSM8998-Snapdragon835-Qualcomm®-Kryo™-280
+Android-11 Termux-0.118 Linux-Ubuntu-22.04-LTS-rootfs Arm64-aarch64 MSM8998-Snapdragon835-Qualcomm®-Kryo™-280
 
-Android-5.1.1 Termux-0.76 Ubuntu-20.04-LTS-rootfs-armhf MSM8916-Snapdragon410
+Android-5.1.1 Termux-0.76 Linux-Ubuntu-20.04-LTS-rootfs-armhf MSM8916-Snapdragon410
 
 ---
 
