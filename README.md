@@ -1,5 +1,5 @@
 ## Android → Termux → Ubuntu
-#### Android → Termux : CLang , Node.js , WCode , Python , Jupyter , tmux
+#### Android → Termux : CLang , Node.js , Wcode , Python , Jupyter , tmux
 #### Android → Termux → Ubuntu : GCC , Node.js , Python , Julia , Go , Code-Server , Jupyter , MariaDB , tmux
 ---
 <p word-wrap: break-word; word-break: break-all; overflow-x: hidden; overflow-x: hidden;>
@@ -151,6 +151,20 @@ https://julialang.org/packages/
 
 [程式設計 Julia 語言解釋器 ( Interpreter ) 官方 General.jl 模組 GitHub 網站倉庫](https://github.com/JuliaRegistries/General): 
 https://github.com/JuliaRegistries/General.git
+
+Code Editor : Visual Studio Code , Code-Server , Jupyter-Notebook , Wcode
+
+[代碼編輯器 ( Code Editor ) 之  Visual Studio Code 官方 GitHub 網站倉庫](https://github.com/microsoft/vscode): 
+https://github.com/microsoft/vscode.git
+
+[代碼編輯器 ( Code Editor ) 之  Code-Server 官方 GitHub 網站倉庫](https://github.com/coder/code-server): 
+https://github.com/coder/code-server.git
+
+[代碼編輯器 ( Code Editor ) 之  Jupyter-Notebook 官方 GitHub 網站倉庫](https://github.com/jupyter/notebook): 
+https://github.com/jupyter/notebook.git
+
+[代碼編輯器 ( Code Editor ) 之  Wcode 官方 GitHub 網站倉庫](https://github.com/fmsouza/wcode): 
+https://github.com/fmsouza/wcode.git
 
 ---
 
