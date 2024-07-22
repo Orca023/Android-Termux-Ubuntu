@@ -154,11 +154,23 @@ https://github.com/JuliaRegistries/General.git
 
 Code Editor : Visual Studio Code , Code-Server , Jupyter-Notebook , Wcode
 
+[代碼編輯器 ( Code Editor ) 之  Visual Studio Code 官方網站](https://code.visualstudio.com/): 
+https://code.visualstudio.com/
+
 [代碼編輯器 ( Code Editor ) 之  Visual Studio Code 官方 GitHub 網站倉庫](https://github.com/microsoft/vscode): 
 https://github.com/microsoft/vscode.git
 
+[代碼編輯器 ( Code Editor ) 之  Code-Server 官方網站](https://coder.com/): 
+https://coder.com/
+
 [代碼編輯器 ( Code Editor ) 之  Code-Server 官方 GitHub 網站倉庫](https://github.com/coder/code-server): 
 https://github.com/coder/code-server.git
+
+[代碼編輯器 ( Code Editor ) 之  Jupyter-Notebook 官方網站](https://jupyter.org/): 
+https://jupyter.org/
+
+[代碼編輯器 ( Code Editor ) 之  Jupyter-Notebook 官方網站説明頁](https://docs.jupyter.org/en/latest/): 
+https://docs.jupyter.org/en/latest/
 
 [代碼編輯器 ( Code Editor ) 之  Jupyter-Notebook 官方 GitHub 網站倉庫](https://github.com/jupyter/notebook): 
 https://github.com/jupyter/notebook.git
