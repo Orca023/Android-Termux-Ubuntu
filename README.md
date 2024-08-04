@@ -305,7 +305,7 @@ python - pip - packages :
 
 二. 其中, 壓縮檔「 google-pixel-2_android-11_termux-0.118_ubuntu-22.04-LTS-rootfs_arm64.tar.gz 」是 arm64 架構 Termux-0.118 作業系統 ( Operating System ) 終端模擬器 ( Terminal Emulator ) 的子系統 Ubuntu-22.04-rootfs-arm64 作業系統 ( Operating System ) 的一個批處理 ( Bash ) 脚本「 /data/data/com.termux/files/home/start-ubuntu.sh 」啓動檔和兩個文件夾「 /data/data/com.termux/files/home/ubuntu-fs/ 」和「 /data/data/com.termux/files/home/ubuntu-binds/ 」的壓縮檔, 壓縮檔裏已經配置的應用如下 :
 
-gcc - 11.3.0
+gcc - 11.4.0
 
 gfortran
 
@@ -349,7 +349,7 @@ tesseract-ocr
 
 libtesseract-dev
 
-python3 ( python-3.10.6-linux-aarch64 ) ( /usr/bin/python3 ) ( ln -s  /bin/python3 ) ( /usr/lib/python3.10/dist-packages/ )
+python3 ( python-3.10.6-linux-aarch64 ) ( /usr/bin/python3 ) ( ln -s  /bin/python3 ) ( /usr/lib/python3/dist-packages/ )
 
 python3-dev
 
@@ -375,7 +375,7 @@ python3-opencv
 
 python3-jieba
 
-python3-pip ( v22.0.2 )
+python3-pip ( pip-22.0.2-linux-aarch64 ) ( /usr/bin/pip ) ( ln -s  /bin/pip ) ( /usr/lib/python3/dist-packages/ )
 
 python - pip - packages :
 
@@ -468,6 +468,14 @@ julia - Pkg - packages :
 &nbsp;&nbsp;&nbsp;&nbsp;Fontconfig = "0.4.1"
 
 &nbsp;&nbsp;&nbsp;&nbsp;Gadfly = "1.4.0"
+
+nodejs ( nodejs-12.22.9-linux-aarch64 ) ( /usr/bin/node ) ( ln -s  /bin/node ) ( /usr/local/lib/node_modules/ )
+
+nodejs-npm ( npm-8.5.1-linux-aarch64 ) ( /usr/bin/npm ) ( ln -s  /bin/npm ) ( /usr/local/lib/node_modules/ )
+
+nodejs - npm - packages :
+
+&nbsp;&nbsp;&nbsp;&nbsp;ijavascript = "5.2.0"
 
 壓縮檔「 google-pixel-2_android-11_termux-0.118_ubuntu-22.04-LTS-rootfs_arm64.tar.gz 」使用説明 :
 
