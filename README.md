@@ -355,31 +355,31 @@ python3-dev
 
 python3-venv
 
-python3-tk
+python3-tk - 8.6
 
-python3-numpy
+python3-numpy - 1.22.4
 
-python3-matplotlib
+python3-matplotlib - 3.5.1
 
-python3-scipy
+python3-scipy - 1.7.3
 
-python3-pandas
+python3-pandas - 1.5.3
 
-python3-statsmodels
+python3-statsmodels - 0.13.2
 
-python3-sklearn
+python3-sklearn - 0.23.2
 
-python3-seaborn
+python3-seaborn - 0.11.2
 
-python3-opencv
+python3-opencv - 4.5.4
 
-python3-jieba
+python3-jieba - 0.42.1
 
 python3-pip ( pip-22.0.2-linux-aarch64 ) ( /usr/bin/pip ) ( ln -s  /bin/pip ) ( /usr/lib/python3/dist-packages/ )
 
 python - pip - packages :
 
-&nbsp;&nbsp;&nbsp;&nbsp;tinydb
+&nbsp;&nbsp;&nbsp;&nbsp;tinydb - 4.7.1
 
 &nbsp;&nbsp;&nbsp;&nbsp;jupyter - 6.5.3
 
@@ -389,85 +389,97 @@ python - pip - packages :
 
 &nbsp;&nbsp;&nbsp;&nbsp;jupyter_nbextensions_configurator
 
-&nbsp;&nbsp;&nbsp;&nbsp;pyinstaller
+&nbsp;&nbsp;&nbsp;&nbsp;pyinstaller - 5.9.0
 
-&nbsp;&nbsp;&nbsp;&nbsp;mariadb
+&nbsp;&nbsp;&nbsp;&nbsp;mariadb - 1.1.6
 
-&nbsp;&nbsp;&nbsp;&nbsp;pyarrow
+&nbsp;&nbsp;&nbsp;&nbsp;pyarrow - 11.0.0
 
-&nbsp;&nbsp;&nbsp;&nbsp;openpyxl
+&nbsp;&nbsp;&nbsp;&nbsp;openpyxl - 3.0.9
 
-&nbsp;&nbsp;&nbsp;&nbsp;xlrd
+&nbsp;&nbsp;&nbsp;&nbsp;xlrd - 2.0.1
 
-&nbsp;&nbsp;&nbsp;&nbsp;pymc3
+&nbsp;&nbsp;&nbsp;&nbsp;pymc3 - 3.11.5
 
-&nbsp;&nbsp;&nbsp;&nbsp;emcee
+&nbsp;&nbsp;&nbsp;&nbsp;emcee - 3.1.4
 
-&nbsp;&nbsp;&nbsp;&nbsp;scikit-fuzzy
+&nbsp;&nbsp;&nbsp;&nbsp;scikit-fuzzy - 0.4.2
 
-&nbsp;&nbsp;&nbsp;&nbsp;SALib
+&nbsp;&nbsp;&nbsp;&nbsp;SALib - 1.4.7
 
-&nbsp;&nbsp;&nbsp;&nbsp;nashpy
+&nbsp;&nbsp;&nbsp;&nbsp;nashpy - 0.0.36
 
-&nbsp;&nbsp;&nbsp;&nbsp;sympy
+&nbsp;&nbsp;&nbsp;&nbsp;sympy - 1.9
 
-&nbsp;&nbsp;&nbsp;&nbsp;factor_analyzer
+&nbsp;&nbsp;&nbsp;&nbsp;factor_analyzer - 0.4.1
 
-&nbsp;&nbsp;&nbsp;&nbsp;dtreeviz
+&nbsp;&nbsp;&nbsp;&nbsp;dtreeviz - 2.2.0
 
-&nbsp;&nbsp;&nbsp;&nbsp;pytesseract
+&nbsp;&nbsp;&nbsp;&nbsp;pytesseract - 0.3.10
 
-&nbsp;&nbsp;&nbsp;&nbsp;shap
+&nbsp;&nbsp;&nbsp;&nbsp;shap - 0.41.0
 
-&nbsp;&nbsp;&nbsp;&nbsp;tensorflow
+&nbsp;&nbsp;&nbsp;&nbsp;tensorflow - 2.12.0
 
 julia ( julia-1.10.3-linux-aarch64.tar.gz ) ( /usr/julia/julia-1.10.3/bin/julia ) ( ln -s  /bin/julia ) ( /root/.julia/config/startup.jl ) ( /root/.julia/packages/ )
 
 julia - Pkg - packages :
 
-&nbsp;&nbsp;&nbsp;&nbsp;Images = "0.26.1"
+&nbsp;&nbsp;&nbsp;&nbsp;CSV - 0.10.14
 
-&nbsp;&nbsp;&nbsp;&nbsp;Plots = "1.40.4"
+&nbsp;&nbsp;&nbsp;&nbsp;Cairo - 1.0.5
 
-&nbsp;&nbsp;&nbsp;&nbsp;IJulia = "1.24.2"
+&nbsp;&nbsp;&nbsp;&nbsp;Calculus - 0.5.1
 
-&nbsp;&nbsp;&nbsp;&nbsp;DifferentialEquations = "7.13.0"
+&nbsp;&nbsp;&nbsp;&nbsp;Cubature - 1.5.1
 
-&nbsp;&nbsp;&nbsp;&nbsp;Symbolics = "5.14.1"
+&nbsp;&nbsp;&nbsp;&nbsp;DataFrames - 1.6.1
 
-&nbsp;&nbsp;&nbsp;&nbsp;DataFrames = "1.6.1"
+&nbsp;&nbsp;&nbsp;&nbsp;DataInterpolations - 6.2.0
 
-&nbsp;&nbsp;&nbsp;&nbsp;Distributions = "0.25.109"
+&nbsp;&nbsp;&nbsp;&nbsp;DifferentialEquations - 7.13.0
 
-&nbsp;&nbsp;&nbsp;&nbsp;Interpolations = "0.15.1"
+&nbsp;&nbsp;&nbsp;&nbsp;Distributions - 0.25.109
 
-&nbsp;&nbsp;&nbsp;&nbsp;LsqFit = "0.15.0"
+&nbsp;&nbsp;&nbsp;&nbsp;Fontconfig - 0.4.1
 
-&nbsp;&nbsp;&nbsp;&nbsp;MultivariateStats = "0.10.3"
+&nbsp;&nbsp;&nbsp;&nbsp;ForwardDiff - 0.10.36
 
-&nbsp;&nbsp;&nbsp;&nbsp;Optim = "1.9.4"
+&nbsp;&nbsp;&nbsp;&nbsp;Gadfly - 1.4.0
 
-&nbsp;&nbsp;&nbsp;&nbsp;TimeSeries = "0.24.2"
+&nbsp;&nbsp;&nbsp;&nbsp;HTTP - 1.10.8
 
-&nbsp;&nbsp;&nbsp;&nbsp;HTTP = "1.10.8"
+&nbsp;&nbsp;&nbsp;&nbsp;IJulia - 1.24.2
 
-&nbsp;&nbsp;&nbsp;&nbsp;JLD = "0.13.5"
+&nbsp;&nbsp;&nbsp;&nbsp;Images - 0.26.1
 
-&nbsp;&nbsp;&nbsp;&nbsp;CSV = "0.10.14"
+&nbsp;&nbsp;&nbsp;&nbsp;Interpolations - 0.15.1
 
-&nbsp;&nbsp;&nbsp;&nbsp;XLSX = "0.10.1"
+&nbsp;&nbsp;&nbsp;&nbsp;JLD - 0.13.5
 
-&nbsp;&nbsp;&nbsp;&nbsp;JSON = "0.21.4"
+&nbsp;&nbsp;&nbsp;&nbsp;JSON - 0.21.4
 
-&nbsp;&nbsp;&nbsp;&nbsp;StructTypes = "1.10.0"
+&nbsp;&nbsp;&nbsp;&nbsp;JSON3 - 1.14.0
 
-&nbsp;&nbsp;&nbsp;&nbsp;JSON3 = "1.14.0"
+&nbsp;&nbsp;&nbsp;&nbsp;LsqFit - 0.15.0
 
-&nbsp;&nbsp;&nbsp;&nbsp;Cairo = "1.0.5"
+&nbsp;&nbsp;&nbsp;&nbsp;MultivariateStats - 0.10.3
 
-&nbsp;&nbsp;&nbsp;&nbsp;Fontconfig = "0.4.1"
+&nbsp;&nbsp;&nbsp;&nbsp;NLsolve - 4.5.1
 
-&nbsp;&nbsp;&nbsp;&nbsp;Gadfly = "1.4.0"
+&nbsp;&nbsp;&nbsp;&nbsp;Optim - 1.9.4
+
+&nbsp;&nbsp;&nbsp;&nbsp;Plots - 1.40.0
+
+&nbsp;&nbsp;&nbsp;&nbsp;Roots - 2.1.7
+
+&nbsp;&nbsp;&nbsp;&nbsp;StructTypes - 1.10.0
+
+&nbsp;&nbsp;&nbsp;&nbsp;Symbolics - 5.30.3
+
+&nbsp;&nbsp;&nbsp;&nbsp;TimeSeries - 0.24.2
+
+&nbsp;&nbsp;&nbsp;&nbsp;XLSX - 0.10.1
 
 nodejs ( nodejs-12.22.9-linux-aarch64 ) ( /usr/bin/node ) ( ln -s  /bin/node ) ( /usr/local/lib/node_modules/ )
 
@@ -475,7 +487,7 @@ nodejs-npm ( npm-8.5.1-linux-aarch64 ) ( /usr/bin/npm ) ( ln -s  /bin/npm ) ( /u
 
 nodejs - npm - packages :
 
-&nbsp;&nbsp;&nbsp;&nbsp;ijavascript = "5.2.0"
+&nbsp;&nbsp;&nbsp;&nbsp;ijavascript - 5.2.0
 
 壓縮檔「 google-pixel-2_android-11_termux-0.118_ubuntu-22.04-LTS-rootfs_arm64.tar.gz 」使用説明 :
 
