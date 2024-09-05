@@ -345,7 +345,7 @@ libmariadb-dev
 
 libopencv-dev
 
-tesseract-ocr
+tesseract-ocr - 4.1.1
 
 libtesseract-dev
 
@@ -420,6 +420,10 @@ python - pip - packages :
 &nbsp;&nbsp;&nbsp;&nbsp;shap - 0.41.0
 
 &nbsp;&nbsp;&nbsp;&nbsp;tensorflow - 2.12.0
+
+&nbsp;&nbsp;&nbsp;&nbsp;python-dateutil - 1.16.0
+
+&nbsp;&nbsp;&nbsp;&nbsp;pmdarima - 2.0.4
 
 julia ( julia-1.10.3-linux-aarch64.tar.gz ) ( /usr/julia/julia-1.10.3/bin/julia ) ( ln -s  /bin/julia ) ( /root/.julia/config/startup.jl ) ( /root/.julia/packages/ )
 
