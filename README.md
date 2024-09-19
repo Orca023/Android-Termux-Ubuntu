@@ -465,6 +465,8 @@ julia - Pkg - packages :
 
 &nbsp;&nbsp;&nbsp;&nbsp;JSON3 - 1.14.0
 
+&nbsp;&nbsp;&nbsp;&nbsp;JuMP - 1.23.2
+
 &nbsp;&nbsp;&nbsp;&nbsp;LsqFit - 0.15.0
 
 &nbsp;&nbsp;&nbsp;&nbsp;MultivariateStats - 0.10.3
