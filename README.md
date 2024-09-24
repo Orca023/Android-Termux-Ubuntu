@@ -465,7 +465,15 @@ julia - Pkg - packages :
 
 &nbsp;&nbsp;&nbsp;&nbsp;JSON3 - 1.14.0
 
-&nbsp;&nbsp;&nbsp;&nbsp;JuMP - 1.23.2
+&nbsp;&nbsp;&nbsp;&nbsp;JuMP - 1.23.1
+
+&nbsp;&nbsp;&nbsp;&nbsp;Gurobi - 1.3.1
+
+&nbsp;&nbsp;&nbsp;&nbsp;Ipopt - 1.6.6
+
+&nbsp;&nbsp;&nbsp;&nbsp;Cbc - 1.2.0
+
+&nbsp;&nbsp;&nbsp;&nbsp;GLPK - 1.2.1
 
 &nbsp;&nbsp;&nbsp;&nbsp;LsqFit - 0.15.0
 
