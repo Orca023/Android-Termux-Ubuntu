@@ -425,6 +425,8 @@ python - pip - packages :
 
 &nbsp;&nbsp;&nbsp;&nbsp;pmdarima - 2.0.4
 
+&nbsp;&nbsp;&nbsp;&nbsp;mplfinance - 0.12
+
 julia ( julia-1.10.3-linux-aarch64.tar.gz ) ( /usr/julia/julia-1.10.3/bin/julia ) ( ln -s  /bin/julia ) ( /root/.julia/config/startup.jl ) ( /root/.julia/packages/ )
 
 julia - Pkg - packages :
@@ -493,7 +495,7 @@ julia - Pkg - packages :
 
 &nbsp;&nbsp;&nbsp;&nbsp;TimeSeries - 0.24.2
 
-&nbsp;&nbsp;&nbsp;&nbsp;XLSX - 0.10.1
+&nbsp;&nbsp;&nbsp;&nbsp;XLSX - 0.10.4
 
 nodejs ( nodejs-12.22.9-linux-aarch64 ) ( /usr/bin/node ) ( ln -s  /bin/node ) ( /usr/local/lib/node_modules/ )
 
