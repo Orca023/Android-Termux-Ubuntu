@@ -331,6 +331,8 @@ lsb-release（LSB：Linux Standard Base）
 
 lsb-core（LSB：Linux Standard Base）
 
+fonts-wqy-zenhei
+
 mariadb-server
 
 code-server_4.10.1_arm64.deb
