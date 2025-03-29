@@ -239,7 +239,7 @@ python - pip - packages :
 ```
    ~ $ pkg install proot -y
 ```
-   然後, 執行如下指令, 開啓模擬最高管理員 ( root ) 賬戶權限模式 :
+   然後, 執行如下指令, 開啓模擬最高管理員 ( `root` ) 賬戶權限模式 :
 ```
    ~ $ termux-chroot
 ```
@@ -405,7 +405,7 @@ nodejs - npm - packages :
    對於已取得最高管理員 ( `root` ) 賬戶權限的 Android-11 作業系統, 執行如下指令, 配置模擬最高管理員 ( `root` ) 賬戶權限模式 :
 ```
    ~ $ pkg install tsu -y
-
+```
    然後, 執行如下指令, 開啓模擬最高管理員 ( `root` ) 賬戶權限模式 :
 ```
    ~ $ tsu
