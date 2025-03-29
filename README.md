@@ -199,6 +199,7 @@ https://pan.baidu.com/s/1sCS63lDJG0hX6yadYEhK5A?pwd=2qq8
 是已經配置完成的 : 智能電話 google-pixel-2 搭載 arm64 架構 android-11 → termux-0.118 → ubuntu-22.04 作業系統 ( Operating System ).
 
 一. 其中, 壓縮檔「 `google-pixel-2_android-11_termux-0.118_arm64.tar.gz` 」是 arm64 架構 Termux-0.118 作業系統 ( Operating System ) 終端模擬器 ( Terminal Emulator ) 的兩個文件夾「 `/data/data/com.termux/files/home/` 」和「 `/data/data/com.termux/files/usr/` 」的壓縮檔, 壓縮檔裏已經配置的應用如下 :
+
 ```
 apt
 pkg-config
@@ -236,52 +237,75 @@ python - pip - packages :
 3. 然後, 在智能電話 google-pixel-2 搭載的 android-11 → termux-0.118 作業系統 ( Operating System ) 終端模擬器 ( Terminal Emulator ) 中, 執行如下指令, 配置模擬最高管理員 ( `root` ) 賬戶權限模式 :
 
    對於未取得最高管理員 ( `root` ) 賬戶權限的 Android-11 作業系統, 執行如下指令, 配置模擬最高管理員 ( `root` ) 賬戶權限模式 :
+   
 ```
    ~ $ pkg install proot -y
 ```
+
    然後, 執行如下指令, 開啓模擬最高管理員 ( `root` ) 賬戶權限模式 :
+   
 ```
    ~ $ termux-chroot
 ```
+
    對於已取得最高管理員 ( `root` ) 賬戶權限的 Android-11 作業系統, 執行如下指令, 配置模擬最高管理員 ( `root` ) 賬戶權限模式 :
+   
 ```
    ~ $ pkg install tsu -y
 ```
+
    然後, 執行如下指令, 開啓模擬最高管理員 ( `root` ) 賬戶權限模式 :
+   
 ```
    ~ $ tsu
 ```
+
 4. 然後, 在智能電話 google-pixel-2 搭載的 android-11 → termux-0.118 作業系統 ( Operating System ) 終端模擬器 ( Terminal Emulator ) 中, 執行如下指令, 配置授予 Termux-0.118 作業系統 ( Operating System ) 終端模擬器 ( Terminal Emulator ) 應用 ( Termux ) 訪問 Android-11 作業系統硬盤存儲權限 :
+
 ```
    ~ $ termux-setup-storage
 ```
+
 5. 然後, 在智能電話 google-pixel-2 搭載的 android-11 → termux-0.118 作業系統 ( Operating System ) 終端模擬器 ( Terminal Emulator ) 中, 執行如下指令, 進入「 `/data/data/com.termux/files/` 」目錄 :
+
 ```
    ~ $ cd /data/data/com.termux/files/
 ```
+
 6. 然後, 在智能電話 google-pixel-2 搭載的 android-11 → termux-0.118 作業系統 ( Operating System ) 終端模擬器 ( Terminal Emulator ) 中, 執行如下指令, 將壓縮檔「 `google-pixel-2_android-11_termux-0.118_arm64.tar.gz` 」複製到「 `/data/data/com.termux/files/` 」目錄 :
+
 ```
    /data/data/com.termux/files $ cp -rf /data/data/com.termux/files/home/storage/downloads/google-pixel-2_android-11_termux-0.118_arm64.tar.gz /data/data/com.termux/files/google-pixel-2_android-11_termux-0.118_arm64.tar.gz
 ```
+
 7. 然後, 在智能電話 google-pixel-2 搭載的 android-11 → termux-0.118 作業系統 ( Operating System ) 終端模擬器 ( Terminal Emulator ) 中, 執行如下指令, 安裝配置 Termux-0.118 作業系統 ( Operating System ) 終端模擬器 ( Terminal Emulator ) 的解壓縮工具 ( tar ) 應用 :
+
 ```
    ~ $ pkg install tar
 ```
+
 8. 然後, 在智能電話 google-pixel-2 搭載的 android-11 → termux-0.118 作業系統 ( Operating System ) 終端模擬器 ( Terminal Emulator ) 中, 執行如下指令, 解壓縮檔「 `google-pixel-2_android-11_termux-0.118_arm64.tar.gz` 」覆蓋「 `/data/data/com.termux/files/` 」目錄下原有的兩個文件夾「 `/data/data/com.termux/files/home/` 」和「 `/data/data/com.termux/files/usr/` 」即可 :
+
 ```
    /data/data/com.termux/files $ tar -zxvf /data/data/com.termux/files/google-pixel-2_android-11_termux-0.118_arm64.tar.gz
 ```
+
 9. 然後, 在智能電話 google-pixel-2 搭載的 android-11 → termux-0.118 作業系統 ( Operating System ) 終端模擬器 ( Terminal Emulator ) 中, 執行如下指令, 刪除壓縮檔「 `google-pixel-2_android-11_termux-0.118_arm64.tar.gz` 」即可 :
+
 ```
    /data/data/com.termux/files $ rm -rf /data/data/com.termux/files/google-pixel-2_android-11_termux-0.118_arm64.tar.gz
 ```
+
 10. 然後, 在智能電話 google-pixel-2 搭載的 android-11 → termux-0.118 作業系統 ( Operating System ) 終端模擬器 ( Terminal Emulator ) 中, 執行如下指令, 退出 Termux-0.118 作業系統 ( Operating System ) 終端模擬器 ( Terminal Emulator ) 返回至 Android-11 作業系統 ( Operating System ) 桌面 :
+
 ```
     /data/data/com.termux/files $ exit
 ```
+
 11. 最後, 在智能電話 google-pixel-2 搭載的 Android-11 系統中, 重新啓動已經安裝配置成功的 Termux-0.118 作業系統 ( Operating System ) 終端模擬器 ( Terminal Emulator ) 應用 ( Termux ) 即可 :
 
 二. 其中, 壓縮檔「 `google-pixel-2_android-11_termux-0.118_ubuntu-22.04-LTS-rootfs_arm64.tar.gz` 」是 arm64 架構 Termux-0.118 作業系統 ( Operating System ) 終端模擬器 ( Terminal Emulator ) 的子系統 Ubuntu-22.04-rootfs-arm64 作業系統 ( Operating System ) 的一個批處理 ( Bash ) 脚本「 `/data/data/com.termux/files/home/start-ubuntu.sh` 」啓動檔和兩個文件夾「 `/data/data/com.termux/files/home/ubuntu-fs/` 」和「 `/data/data/com.termux/files/home/ubuntu-binds/` 」的壓縮檔, 壓縮檔裏已經配置的應用如下 :
+
 ```
 gcc - 11.4.0
 gfortran
@@ -395,81 +419,115 @@ nodejs - npm - packages :
 3. 然後, 在智能電話 google-pixel-2 搭載的 android-11 → termux-0.118 作業系統 ( Operating System ) 終端模擬器 ( Terminal Emulator ) 中, 執行如下指令, 配置模擬最高管理員 ( `root` ) 賬戶權限模式 :
 
    對於未取得最高管理員 ( `root` ) 賬戶權限的 Android-11 作業系統, 執行如下指令, 配置模擬最高管理員 ( `root` ) 賬戶權限模式 :
+
 ```
    ~ $ pkg install proot -y
 ```
+
    然後, 執行如下指令, 開啓模擬最高管理員 ( `root` ) 賬戶權限模式 :
+
 ```
    ~ $ termux-chroot
 ```
+
    對於已取得最高管理員 ( `root` ) 賬戶權限的 Android-11 作業系統, 執行如下指令, 配置模擬最高管理員 ( `root` ) 賬戶權限模式 :
+
 ```
    ~ $ pkg install tsu -y
 ```
+
    然後, 執行如下指令, 開啓模擬最高管理員 ( `root` ) 賬戶權限模式 :
+
 ```
    ~ $ tsu
 ```
+
 4. 然後, 在智能電話 google-pixel-2 搭載的 android-11 → termux-0.118 作業系統 ( Operating System ) 終端模擬器 ( Terminal Emulator ) 中, 執行如下指令, 配置授予 Termux-0.118 作業系統 ( Operating System ) 終端模擬器 ( Terminal Emulator ) 應用 ( Termux ) 訪問 Android-11 作業系統硬盤存儲權限 :
+
 ```
    ~ $ termux-setup-storage
 ```
+
 5. 然後, 在智能電話 google-pixel-2 搭載的 android-11 → termux-0.118 作業系統 ( Operating System ) 終端模擬器 ( Terminal Emulator ) 中, 執行如下指令, 安裝配置 Termux-0.118 作業系統 ( Operating System ) 終端模擬器 ( Terminal Emulator ) 的解壓縮工具 ( tar ) 應用 :
+
 ```
    ~ $ pkg install tar
 ```
+
 6. 然後, 在智能電話 google-pixel-2 搭載的 android-11 → termux-0.118 作業系統 ( Operating System ) 終端模擬器 ( Terminal Emulator ) 中, 執行如下指令, 將壓縮檔「 `google-pixel-2_android-11_termux-0.118_ubuntu-22.04-LTS-rootfs_arm64.tar.gz` 」複製到「 `/data/data/com.termux/files/home/` 」目錄 :
+
 ```
    ~ $ cp -rf /data/data/com.termux/files/home/storage/downloads/google-pixel-2_android-11_termux-0.118_ubuntu-22.04-LTS-rootfs_arm64.tar.gz /data/data/com.termux/files/home/google-pixel-2_android-11_termux-0.118_ubuntu-22.04-LTS-rootfs_arm64.tar.gz
 ```
+
 7. 然後, 在智能電話 google-pixel-2 搭載的 android-11 → termux-0.118 作業系統 ( Operating System ) 終端模擬器 ( Terminal Emulator ) 中, 執行如下指令, 解壓縮檔「 `google-pixel-2_android-11_termux-0.118_ubuntu-22.04-LTS-rootfs_arm64.tar.gz` 」生成一個批處理 ( Bash ) 脚本「 `/data/data/com.termux/files/home/start-ubuntu.sh` 」啓動檔和兩個文件夾「 `/data/data/com.termux/files/home/ubuntu-fs/` 」和「 `/data/data/com.termux/files/home/ubuntu-binds/` 」即可 :
+
 ```
    ~ $ tar -zxvf /data/data/com.termux/files/home/google-pixel-2_android-11_termux-0.118_ubuntu-22.04-LTS-rootfs_arm64.tar.gz
 ```
+
 8. 然後, 在智能電話 google-pixel-2 搭載的 android-11 → termux-0.118 作業系統 ( Operating System ) 終端模擬器 ( Terminal Emulator ) 中, 執行如下指令, 刪除壓縮檔「 `google-pixel-2_android-11_termux-0.118_ubuntu-22.04-LTS-rootfs_arm64.tar.gz` 」即可 :
+
 ```
    ~ $ rm -rf /data/data/com.termux/files/home/google-pixel-2_android-11_termux-0.118_ubuntu-22.04-LTS-rootfs_arm64.tar.gz
 ```
+
 9. 然後, 在智能電話 google-pixel-2 搭載的 android-11 → termux-0.118 作業系統 ( Operating System ) 終端模擬器 ( Terminal Emulator ) 中, 執行如下指令, 修改批處理 ( Bash ) 脚本「 `/data/data/com.termux/files/home/start-ubuntu.sh` 」啓動檔的權限爲所有用戶可讀可執行 :
+
 ```
    ~ $ chmod a+x /data/data/com.termux/files/home/start-ubuntu.sh
 ```
+
 10. 然後, 在智能電話 google-pixel-2 搭載的 android-11 → termux-0.118 作業系統 ( Operating System ) 終端模擬器 ( Terminal Emulator ) 中, 執行如下指令, 即可啓動 Ubuntu-22.04-rootfs-arm64 作業系統 ( Operating System ) 並進入 Ubuntu-bash 控制臺命令列對話窗口 :
+
 ```
     ~ $ /data/data/com.termux/files/home/start-ubuntu.sh
 ```
+
 11. 然後, 在智能電話 google-pixel-2 搭載的 android-11 → termux-0.118 → ubuntu-22.04 作業系統 ( Operating System ) 控制臺 ( Bash ) 窗口中, 執行如下指令, 即可啓動 `code-server` 代碼編輯器伺服器應用 :
+
 ```
     root@localhost:~# /usr/bin/code-server --disable-telemetry --show-versions --auth none --extensions-dir /root/.local/share/code-server/extensions/ --user-data-dir /root/.local/share/code-server/ --config /root/.config/code-server/config.yaml --host 0.0.0.0 --port 8080
 ```
+
     然後, 在瀏覽器 ( Browser ) 地址欄輸入「 `http://[::1]:8080/` 」即可鏈接到已經啓動的 `code-server` 代碼編輯器伺服器, 遠程編寫調試代碼.
 
     在智能電話 google-pixel-2 搭載的 android-11 → termux-0.118 → ubuntu-22.04 作業系統 ( Operating System ) 控制臺 ( Bash ) 窗口中, 執行如下指令, 鍵盤同時輸入「 `Ctrl` + `c` 」鍵, 即可關閉 `code-server` 代碼編輯器伺服器, 返回至 Ubuntu-22.04 作業系統 ( Operating System ) 控制臺 ( Bash ) 命令列對話窗口.
 
 12. 然後, 在智能電話 google-pixel-2 搭載的 android-11 → termux-0.118 → ubuntu-22.04 作業系統 ( Operating System ) 控制臺 ( Bash ) 窗口中, 執行如下指令, 即可啓動 `jupyter` 運算伺服器應用 :
+
 ```
     root@localhost:~# /root/.local/bin/jupyter-notebook --allow-root --no-browser --config="/root/.jupyter/jupyter_notebook_config.py" --ip="0.0.0.0" --port="8888" --notebook-dir="/home/"
 ```
+
     然後, 在瀏覽器 ( Browser ) 地址欄輸入「 `http://[::1]:8888/` 」即可鏈接到已經啓動的 `jupyter` 運算伺服器, 遠程編寫調試代碼.
 
     在智能電話 google-pixel-2 搭載的 android-11 → termux-0.118 → ubuntu-22.04 作業系統 ( Operating System ) 控制臺 ( Bash ) 窗口中, 執行如下指令, 鍵盤同時輸入「 `Ctrl` + `c` 」鍵, 即可關閉 `jupyter` 運算伺服器, 返回至 Ubuntu-22.04 作業系統 ( Operating System ) 控制臺 ( Bash ) 命令列對話窗口.
 
 13. 然後, 在智能電話 google-pixel-2 搭載的 android-11 → termux-0.118 → ubuntu-22.04 作業系統 ( Operating System ) 控制臺 ( Bash ) 窗口中, 執行如下指令, 即可在後臺非阻塞啓動 `MariaDB` 資料庫伺服器應用 :
+
 ```
     root@localhost:~# /etc/init.d/mariadb start
 ```
+
     在智能電話 google-pixel-2 搭載的 android-11 → termux-0.118 → ubuntu-22.04 作業系統 ( Operating System ) 控制臺 ( Bash ) 窗口中, 執行如下指令, 即可關閉 `MariaDB` 資料庫伺服器應用 :
+
 ```
     root@localhost:~# /etc/init.d/mariadb stop
 ```
+
 14. 然後, 在智能電話 google-pixel-2 搭載的 android-11 → termux-0.118 → ubuntu-22.04 作業系統 ( Operating System ) 控制臺 ( Bash ) 窗口中, 執行如下指令, 即可退出 Ubuntu-22.04-rootfs-arm64 作業系統 ( Operating System ) 返回至 Termux-0.118 作業系統 ( Operating System ) 終端模擬器 ( Terminal Emulator ) 中 :
+
 ```
     root@localhost:~# exit
 ```
+
 15. 然後, 在智能電話 google-pixel-2 搭載的 android-11 → termux-0.118 作業系統 ( Operating System ) 終端模擬器 ( Terminal Emulator ) 中, 執行如下指令, 退出 Termux-0.118 作業系統 ( Operating System ) 終端模擬器 ( Terminal Emulator ) 返回至 Android-11 作業系統 ( Operating System ) 桌面 :
+
 ```
     ~ $ exit
 ```
+
 返回至 Android-11 作業系統 ( Operating System ) 桌面.
 
 ---
@@ -485,6 +543,7 @@ nodejs - npm - packages :
 是已經配置完成的 : 智能電話 samsung-galaxy-nexus 搭載 armhf 架構 android-5.1.1 → termux-0.75 → ubuntu-20.04 作業系統 ( Operating System ).
 
 一. 其中, 壓縮檔「 `android-5.1.1_termux-0.75_armhf.tar.gz` 」是 armhf 架構 Termux-0.75 作業系統 ( Operating System ) 終端模擬器 ( Terminal Emulator ) 的兩個文件夾「 `/data/data/com.termux/files/home/` 」和「 `/data/data/com.termux/files/usr/` 」的壓縮檔, 壓縮檔裏已經配置的應用如下 :
+
 ```
 proot
 clang
@@ -494,9 +553,11 @@ git
 tmux
 sshpen
 ```
+
 使用過程如壓縮檔「 `google-pixel-2_android-11_termux-0.118_arm64.tar.gz` 」類似.
 
 二. 其中, 壓縮檔「 `android-5.1.1_termux-0.75_ubuntu-20.04-LTS-rootfs_armhf.tar.gz` 」是 armhf 架構 Termux-0.75 作業系統 ( Operating System ) 終端模擬器 ( Terminal Emulator ) 的子系統 Ubuntu-20.04-rootfs-armhf 作業系統 ( Operating System ) 的一個批處理 ( Bash ) 脚本「 `/data/data/com.termux/files/home/start-ubuntu.sh` 」啓動檔和兩個文件夾「 `/data/data/com.termux/files/home/ubuntu-fs/` 」和「 `/data/data/com.termux/files/home/ubuntu-binds/` 」的壓縮檔, 壓縮檔裏已經配置的應用如下 :
+
 ```
 gcc
 gfortran
