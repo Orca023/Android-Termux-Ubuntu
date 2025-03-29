@@ -2,13 +2,14 @@
 #### Android → Termux : CLang , Node.js , Wcode , Python , Jupyter , tmux
 #### Android → Termux → Ubuntu : GCC , Node.js , Python , Julia , Go , Code-Server , Jupyter , MariaDB , tmux
 ---
-<p word-wrap: break-word; word-break: break-all; overflow-x: hidden; overflow-x: hidden;>
+
+<p word-wrap: break-word; word-break: break-all; overflow-x: hidden; overflow-x: hidden;></p>
+
 一. 首先, 智能電話 Android 作業系統安裝 Termux 子作業系統終端模擬器 ( Terminal Emulator ) 應用.
 
 二. 然後, 使用 Termux 終端模擬器 ( Terminal Emulator ) 安裝配置 Linux-Ubuntu 子作業系統應用.
 
 三. 最後, 在 Android → Termux → Ubuntu 系統下, 配置計算機程式開發環境.
-</p>
 
 ---
 
@@ -189,67 +190,44 @@ https://pan.baidu.com/s/1sCS63lDJG0hX6yadYEhK5A?pwd=2qq8
 
 百度網盤裏的壓縮檔 :
 
-google-pixel-2_android-11_termux-0.118_arm64.tar.gz
+`google-pixel-2_android-11_termux-0.118_arm64.tar.gz`
 
 和
 
-google-pixel-2_android-11_termux-0.118_ubuntu-22.04-LTS-rootfs_arm64.tar.gz
+`google-pixel-2_android-11_termux-0.118_ubuntu-22.04-LTS-rootfs_arm64.tar.gz`
 
 是已經配置完成的 : 智能電話 google-pixel-2 搭載 arm64 架構 android-11 → termux-0.118 → ubuntu-22.04 作業系統 ( Operating System ).
 
-一. 其中, 壓縮檔「 google-pixel-2_android-11_termux-0.118_arm64.tar.gz 」是 arm64 架構 Termux-0.118 作業系統 ( Operating System ) 終端模擬器 ( Terminal Emulator ) 的兩個文件夾「 /data/data/com.termux/files/home/ 」和「 /data/data/com.termux/files/usr/ 」的壓縮檔, 壓縮檔裏已經配置的應用如下 :
-
+一. 其中, 壓縮檔「 `google-pixel-2_android-11_termux-0.118_arm64.tar.gz` 」是 arm64 架構 Termux-0.118 作業系統 ( Operating System ) 終端模擬器 ( Terminal Emulator ) 的兩個文件夾「 `/data/data/com.termux/files/home/` 」和「 `/data/data/com.termux/files/usr/` 」的壓縮檔, 壓縮檔裏已經配置的應用如下 :
+```
 apt
-
 pkg-config
-
 tsu
-
 proot
-
 termux-exec
-
 openssl-tool
-
 busybox
-
 bash
-
 proot-distro
-
 clang
-
 make
-
 nano
-
 wget
-
 git
-
 curl
-
 dpkg
-
 tar
-
 tmux
-
 net-tools
-
 openssh
-
 python - 3.11.9
-
 python-pip - 24.0
-
 python - pip - packages :
+    jupyter - 6.5.3
+    tk
+```
 
-&nbsp;&nbsp;&nbsp;&nbsp;jupyter - 6.5.3
-
-&nbsp;&nbsp;&nbsp;&nbsp;tk
-
-壓縮檔「 google-pixel-2_android-11_termux-0.118_arm64.tar.gz 」使用説明 :
+壓縮檔「 `google-pixel-2_android-11_termux-0.118_arm64.tar.gz` 」使用説明 :
 
 1. 首先, 在智能電話 google-pixel-2 搭載的 Android-11 作業系統中, 安裝 Arm64 架構的 Termux-0.118 作業系統 ( Operating System ) 終端模擬器 ( Terminal Emulator ) 應用 ( com.termux_118.apk ) ；
 
@@ -257,53 +235,160 @@ python - pip - packages :
 
 3. 然後, 在智能電話 google-pixel-2 搭載的 android-11 → termux-0.118 作業系統 ( Operating System ) 終端模擬器 ( Terminal Emulator ) 中, 執行如下指令, 配置模擬最高管理員 ( root ) 賬戶權限模式 :
 
-   對於未取得最高管理員 ( root ) 賬戶權限的 Android-11 作業系統, 執行如下指令, 配置模擬最高管理員 ( root ) 賬戶權限模式 :
-
+   對於未取得最高管理員 ( `root` ) 賬戶權限的 Android-11 作業系統, 執行如下指令, 配置模擬最高管理員 ( `root` ) 賬戶權限模式 :
+```
    ~ $ pkg install proot -y
-
+```
    然後, 執行如下指令, 開啓模擬最高管理員 ( root ) 賬戶權限模式 :
-
+```
    ~ $ termux-chroot
-
-   對於已取得最高管理員 ( root ) 賬戶權限的 Android-11 作業系統, 執行如下指令, 配置模擬最高管理員 ( root ) 賬戶權限模式 :
-
+```
+   對於已取得最高管理員 ( `root` ) 賬戶權限的 Android-11 作業系統, 執行如下指令, 配置模擬最高管理員 ( `root` ) 賬戶權限模式 :
+```
    ~ $ pkg install tsu -y
-
-   然後, 執行如下指令, 開啓模擬最高管理員 ( root ) 賬戶權限模式 :
-
+```
+   然後, 執行如下指令, 開啓模擬最高管理員 ( `root` ) 賬戶權限模式 :
+```
    ~ $ tsu
-
+```
 4. 然後, 在智能電話 google-pixel-2 搭載的 android-11 → termux-0.118 作業系統 ( Operating System ) 終端模擬器 ( Terminal Emulator ) 中, 執行如下指令, 配置授予 Termux-0.118 作業系統 ( Operating System ) 終端模擬器 ( Terminal Emulator ) 應用 ( Termux ) 訪問 Android-11 作業系統硬盤存儲權限 :
-
+```
    ~ $ termux-setup-storage
-
-5. 然後, 在智能電話 google-pixel-2 搭載的 android-11 → termux-0.118 作業系統 ( Operating System ) 終端模擬器 ( Terminal Emulator ) 中, 執行如下指令, 進入「 /data/data/com.termux/files/ 」目錄 :
-
+```
+5. 然後, 在智能電話 google-pixel-2 搭載的 android-11 → termux-0.118 作業系統 ( Operating System ) 終端模擬器 ( Terminal Emulator ) 中, 執行如下指令, 進入「 `/data/data/com.termux/files/` 」目錄 :
+```
    ~ $ cd /data/data/com.termux/files/
-
-6. 然後, 在智能電話 google-pixel-2 搭載的 android-11 → termux-0.118 作業系統 ( Operating System ) 終端模擬器 ( Terminal Emulator ) 中, 執行如下指令, 將壓縮檔「 google-pixel-2_android-11_termux-0.118_arm64.tar.gz 」複製到「 /data/data/com.termux/files/ 」目錄 :
-
+```
+6. 然後, 在智能電話 google-pixel-2 搭載的 android-11 → termux-0.118 作業系統 ( Operating System ) 終端模擬器 ( Terminal Emulator ) 中, 執行如下指令, 將壓縮檔「 `google-pixel-2_android-11_termux-0.118_arm64.tar.gz` 」複製到「 `/data/data/com.termux/files/` 」目錄 :
+```
    /data/data/com.termux/files $ cp -rf /data/data/com.termux/files/home/storage/downloads/google-pixel-2_android-11_termux-0.118_arm64.tar.gz /data/data/com.termux/files/google-pixel-2_android-11_termux-0.118_arm64.tar.gz
-
+```
 7. 然後, 在智能電話 google-pixel-2 搭載的 android-11 → termux-0.118 作業系統 ( Operating System ) 終端模擬器 ( Terminal Emulator ) 中, 執行如下指令, 安裝配置 Termux-0.118 作業系統 ( Operating System ) 終端模擬器 ( Terminal Emulator ) 的解壓縮工具 ( tar ) 應用 :
-
+```
    ~ $ pkg install tar
-
-8. 然後, 在智能電話 google-pixel-2 搭載的 android-11 → termux-0.118 作業系統 ( Operating System ) 終端模擬器 ( Terminal Emulator ) 中, 執行如下指令, 解壓縮檔「 google-pixel-2_android-11_termux-0.118_arm64.tar.gz 」覆蓋「 /data/data/com.termux/files/ 」目錄下原有的兩個文件夾「 /data/data/com.termux/files/home/ 」和「 /data/data/com.termux/files/usr/ 」即可 :
-
+```
+8. 然後, 在智能電話 google-pixel-2 搭載的 android-11 → termux-0.118 作業系統 ( Operating System ) 終端模擬器 ( Terminal Emulator ) 中, 執行如下指令, 解壓縮檔「 `google-pixel-2_android-11_termux-0.118_arm64.tar.gz` 」覆蓋「 `/data/data/com.termux/files/` 」目錄下原有的兩個文件夾「 `/data/data/com.termux/files/home/` 」和「 `/data/data/com.termux/files/usr/` 」即可 :
+```
    /data/data/com.termux/files $ tar -zxvf /data/data/com.termux/files/google-pixel-2_android-11_termux-0.118_arm64.tar.gz
-
-9. 然後, 在智能電話 google-pixel-2 搭載的 android-11 → termux-0.118 作業系統 ( Operating System ) 終端模擬器 ( Terminal Emulator ) 中, 執行如下指令, 刪除壓縮檔「 google-pixel-2_android-11_termux-0.118_arm64.tar.gz 」即可 :
-
+```
+9. 然後, 在智能電話 google-pixel-2 搭載的 android-11 → termux-0.118 作業系統 ( Operating System ) 終端模擬器 ( Terminal Emulator ) 中, 執行如下指令, 刪除壓縮檔「 `google-pixel-2_android-11_termux-0.118_arm64.tar.gz` 」即可 :
+```
    /data/data/com.termux/files $ rm -rf /data/data/com.termux/files/google-pixel-2_android-11_termux-0.118_arm64.tar.gz
-
+```
 10. 然後, 在智能電話 google-pixel-2 搭載的 android-11 → termux-0.118 作業系統 ( Operating System ) 終端模擬器 ( Terminal Emulator ) 中, 執行如下指令, 退出 Termux-0.118 作業系統 ( Operating System ) 終端模擬器 ( Terminal Emulator ) 返回至 Android-11 作業系統 ( Operating System ) 桌面 :
-
+```
     /data/data/com.termux/files $ exit
-
+```
 11. 最後, 在智能電話 google-pixel-2 搭載的 Android-11 系統中, 重新啓動已經安裝配置成功的 Termux-0.118 作業系統 ( Operating System ) 終端模擬器 ( Terminal Emulator ) 應用 ( Termux ) 即可 :
 
-二. 其中, 壓縮檔「 google-pixel-2_android-11_termux-0.118_ubuntu-22.04-LTS-rootfs_arm64.tar.gz 」是 arm64 架構 Termux-0.118 作業系統 ( Operating System ) 終端模擬器 ( Terminal Emulator ) 的子系統 Ubuntu-22.04-rootfs-arm64 作業系統 ( Operating System ) 的一個批處理 ( Bash ) 脚本「 /data/data/com.termux/files/home/start-ubuntu.sh 」啓動檔和兩個文件夾「 /data/data/com.termux/files/home/ubuntu-fs/ 」和「 /data/data/com.termux/files/home/ubuntu-binds/ 」的壓縮檔, 壓縮檔裏已經配置的應用如下 :
+二. 其中, 壓縮檔「 `google-pixel-2_android-11_termux-0.118_ubuntu-22.04-LTS-rootfs_arm64.tar.gz` 」是 arm64 架構 Termux-0.118 作業系統 ( Operating System ) 終端模擬器 ( Terminal Emulator ) 的子系統 Ubuntu-22.04-rootfs-arm64 作業系統 ( Operating System ) 的一個批處理 ( Bash ) 脚本「 `/data/data/com.termux/files/home/start-ubuntu.sh` 」啓動檔和兩個文件夾「 `/data/data/com.termux/files/home/ubuntu-fs/` 」和「 `/data/data/com.termux/files/home/ubuntu-binds/` 」的壓縮檔, 壓縮檔裏已經配置的應用如下 :
+```
+gcc - 11.4.0
+gfortran
+g++
+nano
+wget
+git
+dpkg
+tmux
+openssh-server
+openssh-client
+net-tools
+lsb-release（LSB：Linux Standard Base）
+lsb-core（LSB：Linux Standard Base）
+fonts-wqy-zenhei
+mariadb-server
+code-server_4.10.1_arm64.deb
+libffi-dev
+libxml2
+libxslt–dev
+libmariadb-dev
+libopencv-dev
+tesseract-ocr - 4.1.1
+libtesseract-dev
+python3 ( python-3.10.6-linux-aarch64 ) ( /usr/bin/python3 ) ( ln -s  /bin/python3 ) ( /usr/lib/python3/dist-packages/ )
+python3-dev
+python3-venv
+python3-tk - 8.6
+python3-numpy - 1.22.4
+python3-matplotlib - 3.5.1
+python3-scipy - 1.7.3
+python3-pandas - 1.5.3
+python3-statsmodels - 0.13.2
+python3-sklearn - 0.23.2
+python3-seaborn - 0.11.2
+python3-opencv - 4.5.4
+python3-jieba - 0.42.1
+python3-pip ( pip-22.0.2-linux-aarch64 ) ( /usr/bin/pip ) ( ln -s  /bin/pip ) ( /usr/lib/python3/dist-packages/ )
+python - pip - packages :
+    tinydb - 4.7.1
+    jupyter - 6.5.3
+    jupyterlab - 3.6.1
+    jupyter_contrib_nbextensions
+    jupyter_nbextensions_configurator
+    pyinstaller - 5.9.0
+    mariadb - 1.1.6
+    pyarrow - 11.0.0
+    openpyxl - 3.0.9
+    xlrd - 2.0.1
+    pymc3 - 3.11.5
+    emcee - 3.1.4
+    scikit-fuzzy - 0.4.2
+    SALib - 1.4.7
+    nashpy - 0.0.36
+    sympy - 1.9
+    factor_analyzer - 0.4.1
+    dtreeviz - 2.2.0
+    pytesseract - 0.3.10
+    shap - 0.41.0
+    tensorflow - 2.12.0
+    python-dateutil - 1.16.0
+    pmdarima - 2.0.4
+    mplfinance - 0.12
+julia ( julia-1.10.3-linux-aarch64.tar.gz ) ( /usr/julia/julia-1.10.3/bin/julia ) ( ln -s  /bin/julia ) ( /root/.julia/config/startup.jl ) ( /root/.julia/packages/ )
+julia - Pkg - packages :
+    CSV - 0.10.14
+    Cairo - 1.0.5
+    Calculus - 0.5.1
+    Cubature - 1.5.1
+    DataFrames - 1.6.1
+    DataInterpolations - 6.2.0
+    DifferentialEquations - 7.13.0
+    Distributions - 0.25.109
+    Fontconfig - 0.4.1
+    ForwardDiff - 0.10.36
+    Gadfly - 1.4.0
+    HTTP - 1.10.8
+    IJulia - 1.24.2
+    Images - 0.26.1
+    Interpolations - 0.15.1
+    JLD - 0.13.5
+    JSON - 0.21.4
+    JSON3 - 1.14.0
+    JuMP - 1.23.1
+    Gurobi - 1.3.1
+    Ipopt - 1.6.6
+    Cbc - 1.2.0
+    GLPK - 1.2.1
+    LsqFit - 0.15.0
+    MultivariateStats - 0.10.3
+    NLsolve - 4.5.1
+    Optim - 1.9.4
+    Plots - 1.40.0
+    Roots - 2.1.7
+    StructTypes - 1.10.0
+    Symbolics - 5.30.3
+    TimeSeries - 0.24.2
+    XLSX - 0.10.4
+nodejs ( nodejs-12.22.9-linux-aarch64 ) ( /usr/bin/node ) ( ln -s  /bin/node ) ( /usr/local/lib/node_modules/ )
+nodejs-npm ( npm-8.5.1-linux-aarch64 ) ( /usr/bin/npm ) ( ln -s  /bin/npm ) ( /usr/local/lib/node_modules/ )
+nodejs - npm - packages :
+    ijavascript - 5.2.0
+```
+
+
+
+
 
 gcc - 11.4.0
 
