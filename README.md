@@ -400,6 +400,7 @@ julia - Pkg - packages :
     Optim - 1.9.4
     Plots - 1.40.0
     Roots - 2.1.7
+    Revise - 3.8.0
     StructTypes - 1.10.0
     Symbolics - 5.30.3
     TimeSeries - 0.24.2
