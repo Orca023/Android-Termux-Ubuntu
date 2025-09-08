@@ -369,7 +369,7 @@ python - pip - packages :
     python-dateutil - 1.16.0
     pmdarima - 2.0.4
     mplfinance - 0.12
-julia ( julia-1.10.3-linux-aarch64.tar.gz ) ( /usr/julia/julia-1.10.3/bin/julia ) ( ln -s  /bin/julia ) ( /root/.julia/config/startup.jl ) ( /root/.julia/packages/ )
+julia ( julia-1.10.10-linux-aarch64.tar.gz ) ( /usr/julia/julia-1.10.10/bin/julia ) ( ln -s /usr/julia/julia-1.10.10/bin/julia /bin/julia ) ( /root/.julia/config/startup.jl ) ( /root/.julia/packages/ )
 julia - Pkg - packages :
     CSV - 0.10.14
     Cairo - 1.0.5
@@ -490,6 +490,8 @@ nodejs - npm - packages :
 ```
     root@localhost:~# /usr/bin/code-server --disable-telemetry --show-versions --auth none --extensions-dir /root/.local/share/code-server/extensions/ --user-data-dir /root/.local/share/code-server/ --config /root/.config/code-server/config.yaml --host 0.0.0.0 --port 8080
 ```
+    root@localhost:~# /usr/bin/code-server --disable-telemetry --show-versions --auth none --extensions-dir /root/.local/share/code-server/extensions/ --user-data-dir /root/.local/share/code-server/ --config /root/.config/code-server/config.yaml --host :: --port 8080
+```
 
     然後, 在瀏覽器 ( Browser ) 地址欄輸入「 `http://[::1]:8080/` 」即可鏈接到已經啓動的 `code-server` 代碼編輯器伺服器, 遠程編寫調試代碼.
 
@@ -499,6 +501,8 @@ nodejs - npm - packages :
 
 ```
     root@localhost:~# /root/.local/bin/jupyter-notebook --allow-root --no-browser --config="/root/.jupyter/jupyter_notebook_config.py" --ip="0.0.0.0" --port="8888" --notebook-dir="/home/"
+```
+    root@localhost:~# /root/.local/bin/jupyter-notebook --allow-root --no-browser --config="/root/.jupyter/jupyter_notebook_config.py" --ip="::" --port="8888" --notebook-dir="/home/"
 ```
 
     然後, 在瀏覽器 ( Browser ) 地址欄輸入「 `http://[::1]:8888/` 」即可鏈接到已經啓動的 `jupyter` 運算伺服器, 遠程編寫調試代碼.
