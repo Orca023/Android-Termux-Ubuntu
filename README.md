@@ -1,6 +1,6 @@
 ## Android → Termux → Ubuntu
 #### Android → Termux : CLang , Node.js , Wcode , Python , Jupyter , tmux
-#### Android → Termux → Ubuntu : GCC , Node.js , Python , Julia , Go , Code-Server , Jupyter , MariaDB , tmux
+#### Android → Termux → Ubuntu : GCC , Node.js , Python , Julia , Go , Code-Server , Jupyter , MariaDB , MongoDB , tmux
 ---
 
 <p word-wrap: break-word; word-break: break-all; overflow-x: hidden; overflow-x: hidden;></p>
@@ -327,6 +327,8 @@ libffi-dev
 libxml2
 libxslt–dev
 libmariadb-dev
+mongodb - 8.2.3
+mongosh - 2.6.0
 libopencv-dev
 tesseract-ocr - 4.1.1
 libtesseract-dev
@@ -408,7 +410,10 @@ julia - Pkg - packages :
 nodejs ( nodejs-12.22.9-linux-aarch64 ) ( /usr/bin/node ) ( ln -s  /bin/node ) ( /usr/local/lib/node_modules/ )
 nodejs-npm ( npm-8.5.1-linux-aarch64 ) ( /usr/bin/npm ) ( ln -s  /bin/npm ) ( /usr/local/lib/node_modules/ )
 nodejs - npm - packages :
-    ijavascript - 5.2.0
+    ijavascript - 5.2.1
+    mariadb - 3.4.5
+    mongodb - 7.1.0
+    mongoose - 9.1.6
 ```
 
 壓縮檔「 `google-pixel-2_android-11_termux-0.118_ubuntu-22.04-LTS-rootfs_arm64.tar.gz` 」使用説明 :
