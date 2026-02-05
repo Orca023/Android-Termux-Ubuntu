@@ -153,6 +153,40 @@ https://julialang.org/packages/
 [程式設計 Julia 語言解釋器 ( Interpreter ) 官方 General.jl 模組 GitHub 網站倉庫](https://github.com/JuliaRegistries/General): 
 https://github.com/JuliaRegistries/General.git
 
+Database : MariaDB
+
+[資料庫 MariaDB 應用軟體官方網站](https://mariadb.com/): 
+https://mariadb.com/
+
+[資料庫 MariaDB 應用軟體官方手冊](https://mariadb.com/docs/server): 
+https://mariadb.com/docs/server
+
+[資料庫 MariaDB 應用軟體下載官方網站](https://mariadb.org/download/): 
+https://mariadb.org/download/
+
+[資料庫 MariaDB 應用軟體官方 GitHub 網站賬戶](https://github.com/MariaDB): 
+https://github.com/MariaDB
+
+[資料庫 MariaDB 應用軟體官方 GitHub 網站倉庫](https://github.com/MariaDB/server): 
+https://github.com/MariaDB/server.git
+
+Database : MongoDB
+
+[資料庫 MongoDB 應用軟體官方網站](https://www.mongodb.com/): 
+https://www.mongodb.com/
+
+[資料庫 MongoDB 應用軟體官方手冊](https://www.mongodb.com/docs/manual/): 
+https://www.mongodb.com/docs/manual/
+
+[資料庫 MongoDB 應用軟體下載官方網站](https://www.mongodb.com/try/download/community): 
+https://www.mongodb.com/try/download/community
+
+[資料庫 MongoDB 應用軟體官方 GitHub 網站賬戶](https://github.com/mongodb): 
+https://github.com/mongodb
+
+[資料庫 MongoDB 應用軟體官方 GitHub 網站倉庫](https://github.com/mongodb/mongo): 
+https://github.com/mongodb/mongo.git
+
 Code Editor : Visual Studio Code , Code-Server , Jupyter-Notebook , Wcode
 
 [代碼編輯器 ( Code Editor ) 之  Visual Studio Code 官方網站](https://code.visualstudio.com/): 
@@ -322,13 +356,13 @@ lsb-release（LSB：Linux Standard Base）
 lsb-core（LSB：Linux Standard Base）
 fonts-wqy-zenhei
 mariadb-server
+mongodb - 8.2.3
+mongosh - 2.6.0
 code-server_4.10.1_arm64.deb
 libffi-dev
 libxml2
 libxslt–dev
 libmariadb-dev
-mongodb - 8.2.3
-mongosh - 2.6.0
 libopencv-dev
 tesseract-ocr - 4.1.1
 libtesseract-dev
