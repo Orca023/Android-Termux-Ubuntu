@@ -356,8 +356,7 @@ lsb-release（LSB：Linux Standard Base）
 lsb-core（LSB：Linux Standard Base）
 fonts-wqy-zenhei
 mariadb-server
-mongodb - 8.2.3
-mongosh - 2.6.0
+redis-server - 8.2.3
 code-server_4.10.1_arm64.deb
 libffi-dev
 libxml2
@@ -388,6 +387,8 @@ python - pip - packages :
     jupyter_nbextensions_configurator
     pyinstaller - 5.9.0
     mariadb - 1.1.6
+    redis - 7.4.0
+    pymongo - 4.17
     pyarrow - 11.0.0
     openpyxl - 3.0.9
     xlrd - 2.0.1
@@ -425,6 +426,8 @@ julia - Pkg - packages :
     JLD - 0.13.5
     JSON - 0.21.4
     JSON3 - 1.14.0
+    MySQL - 1.5.1
+    Redis - 3.0.0
     JuMP - 1.23.1
     Gurobi - 1.3.1
     Ipopt - 1.6.6
@@ -445,7 +448,9 @@ nodejs ( nodejs-12.22.9-linux-aarch64 ) ( /usr/bin/node ) ( ln -s  /bin/node ) (
 nodejs-npm ( npm-8.5.1-linux-aarch64 ) ( /usr/bin/npm ) ( ln -s  /bin/npm ) ( /usr/local/lib/node_modules/ )
 nodejs - npm - packages :
     ijavascript - 5.2.1
-    mariadb - 3.4.5
+    mariadb - 3.5.2
+    mysql - 2.18.1
+    redis - 5.12.1
     mongodb - 7.1.0
     mongoose - 9.1.6
 ```
