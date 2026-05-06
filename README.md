@@ -355,7 +355,7 @@ net-tools
 lsb-release（LSB：Linux Standard Base）
 lsb-core（LSB：Linux Standard Base）
 fonts-wqy-zenhei
-mariadb-server
+mariadb-server - 10.6.18
 redis-server - 8.2.3
 code-server_4.10.1_arm64.deb
 libffi-dev
