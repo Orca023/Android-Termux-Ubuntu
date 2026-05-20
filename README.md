@@ -241,6 +241,7 @@ tsu
 proot
 termux-exec
 openssl-tool
+shellinabox - 2.21
 busybox
 bash
 proot-distro
