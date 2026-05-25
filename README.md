@@ -1,6 +1,6 @@
 ## Android → Termux → Ubuntu
-#### Android → Termux : CLang , Node.js , Wcode , Python , Jupyter , tmux
-#### Android → Termux → Ubuntu : GCC , Node.js , Python , Julia , Go , Code-Server , Jupyter , MariaDB , MongoDB , tmux
+#### Android → Termux : OpenSSH , tmux , CLang , Node.js , Python , Jupyter
+#### Android → Termux → Ubuntu : OpenSSH , shellinabox , tmux , Redis , MariaDB , GCC , Node.js , Python , Julia , Go , Code-Server , Jupyter
 ---
 
 <p word-wrap: break-word; word-break: break-all; overflow-x: hidden; overflow-x: hidden;></p>
