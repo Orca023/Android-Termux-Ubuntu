@@ -562,7 +562,7 @@ nodejs - npm - packages :
 
     在智能電話 google-pixel-2 搭載的 android-11 → termux-0.118 → ubuntu-22.04 作業系統 ( Operating System ) 控制臺 ( Bash ) 窗口中, 執行如下指令, 鍵盤同時輸入「 `Ctrl` + `c` 」鍵, 即可關閉 `code-server` 代碼編輯器伺服器, 返回至 Ubuntu-22.04 作業系統 ( Operating System ) 控制臺 ( Bash ) 命令列對話窗口.
 
-12. 然後, 在智能電話 google-pixel-2 搭載的 android-11 → termux-0.118 → ubuntu-22.04 作業系統 ( Operating System ) 控制臺 ( Bash ) 窗口中, 執行如下指令, 即可啓動 `jupyter` 運算伺服器應用 :
+12. 然後, 在智能電話 google-pixel-2 搭載的 android-11 → termux-0.118 → ubuntu-22.04 作業系統 ( Operating System ) 控制臺 ( Bash ) 窗口中, 執行如下指令, 即可啓動程式設計語言「Python」原生版 `jupyter` 運算伺服器應用 :
 
 ```
     root@localhost:~# /root/.local/bin/jupyter-notebook --allow-root --no-browser --config="/root/.jupyter/jupyter_notebook_config.py" --ip="0.0.0.0" --port="8888" --notebook-dir="/home/"
@@ -570,12 +570,17 @@ nodejs - npm - packages :
 ```
     root@localhost:~# /root/.local/bin/jupyter-notebook --allow-root --no-browser --config="/root/.jupyter/jupyter_notebook_config.py" --ip="::" --port="8888" --notebook-dir="/home/"
 ```
+或者，在智能電話 google-pixel-2 搭載的 android-11 → termux-0.118 → ubuntu-22.04 作業系統 ( Operating System ) 控制臺 ( Bash ) 窗口中, 執行如下指令, 即可啓動程式設計語言「Julia」調用版 `jupyter` 運算伺服器應用 :
+
+```
+    root@localhost:~# /usr/julia/julia-1.10.10/bin/julia --project=/root/.julia/ -e "ENV[\"JULIA_DEPOT_PATH\"]=\"/root/.julia/\";ENV[\"JULIA_LOAD_PATH\"]=\"/root/.julia/\";ENV[\"JUPYTER\"]=\"/root/.local/bin/jupyter\";ENV[\"JUPYTER_CONFIG_DIR\"]=\"/home/\";ENV[\"PYTHON\"]=\"/usr/bin/python3\";Base.Filesystem.cd(\"/home/\");using IJulia;IJulia.jupyterlab(detached=false,verbose=true,dir=\"/home/\");"
+```
 
     然後, 在瀏覽器 ( Browser ) 地址欄輸入「 `http://[::1]:8888/` 」即可鏈接到已經啓動的 `jupyter` 運算伺服器, 遠程編寫調試代碼.
 
     在智能電話 google-pixel-2 搭載的 android-11 → termux-0.118 → ubuntu-22.04 作業系統 ( Operating System ) 控制臺 ( Bash ) 窗口中, 執行如下指令, 鍵盤同時輸入「 `Ctrl` + `c` 」鍵, 即可關閉 `jupyter` 運算伺服器, 返回至 Ubuntu-22.04 作業系統 ( Operating System ) 控制臺 ( Bash ) 命令列對話窗口.
 
-13. 然後, 在智能電話 google-pixel-2 搭載的 android-11 → termux-0.118 → ubuntu-22.04 作業系統 ( Operating System ) 控制臺 ( Bash ) 窗口中, 執行如下指令, 即可在後臺非阻塞啓動 `MariaDB` 資料庫伺服器應用 :
+13. 然後, 在智能電話 google-pixel-2 搭載的 android-11 → termux-0.118 → ubuntu-22.04 作業系統 ( Operating System ) 控制臺 ( Bash ) 窗口中, 執行如下指令, 即可在後臺非阻塞隱藏啓動 `MariaDB` 資料庫伺服器應用 :
 
 ```
     root@localhost:~# /etc/init.d/mariadb start --defaults-extra-file=/etc/mysql/my.cnf
