@@ -345,13 +345,13 @@ python - pip - packages :
     /data/data/com.termux/files/home $ /data/data/com.termux/files/usr/bin/sshd
 ```
 
-13. 之後，可在 Windows 作業系統 ( Operating System ) 的 CMD 控制臺 ( Windows - cmd ) 命令行, 使用類似如下結構的指令, 遠程接入 android-11 → termux-0.118 作業系統 ( Operating System ) 後臺正在運行的 SSHD 伺服器 :
+之後，可在 Windows 作業系統 ( Operating System ) 的 CMD 控制臺 ( Windows - cmd ) 命令行, 使用類似如下結構的指令, 遠程接入 android-11 → termux-0.118 作業系統 ( Operating System ) 後臺正在運行的 SSHD 伺服器 :
 
 ```
     C:\> ssh u0_a192@192.168.0.4 -p 8022
 ```
 
-14. 可在智能電話 google-pixel-2 搭載的 android-11 → termux-0.118 作業系統 ( Operating System ) 終端模擬器 ( Terminal Emulator ) 中, 執行如下指令, 關閉終止正在 android-11 → termux-0.118 作業系統 ( Operating System ) 後臺隱藏運行的 SSHD 伺服器應用 :
+可在智能電話 google-pixel-2 搭載的 android-11 → termux-0.118 作業系統 ( Operating System ) 終端模擬器 ( Terminal Emulator ) 中, 執行如下指令, 關閉終止正在 android-11 → termux-0.118 作業系統 ( Operating System ) 後臺隱藏運行的 SSHD 伺服器應用 :
 
 ```
     /data/data/com.termux/files/home $ pkill sshd
