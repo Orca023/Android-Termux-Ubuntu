@@ -173,6 +173,8 @@ https://github.com/golang/go.git
 [程式設計 Go 語言編譯器 ( Compiler ) 第三方擴展模組 ( module ) ( packages ) 托管網站官方手冊](https://pkg.go.dev/golang.org/x/mod/module): 
 https://pkg.go.dev/golang.org/x/mod/module
 
+Database management tool : MariaDB , Redis
+
 Database : MariaDB
 
 [資料庫 MariaDB 應用軟體官方網站](https://mariadb.com/): 
