@@ -102,7 +102,7 @@ https://github.com/niXman/mingw-builds-binaries/releases
 [程式設計 C 語言 gcc, g++ 編譯器 ( Compiler ) 之 MinGW-w64 預編譯二進制檔下載頁](https://sourceforge.net/projects/mingw-w64/): 
 https://sourceforge.net/projects/mingw-w64/
 
-Clang: a C language family frontend for LLVM
+Clang : a C language family frontend for LLVM
 
 [程式設計 Clang 語言編譯器 ( Compiler ) 官方網站](https://clang.org/): 
 https://clang.org/
