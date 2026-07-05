@@ -153,7 +153,7 @@ https://julialang.org/packages/
 [程式設計 Julia 語言解釋器 ( Interpreter ) 官方 General.jl 模組 GitHub 網站倉庫](https://github.com/JuliaRegistries/General): 
 https://github.com/JuliaRegistries/General.git
 
-Interpreter : Go
+Compiler : Go
 
 [程式設計 Go 語言解釋器 ( Interpreter ) 官方網站](https://go.dev/): 
 https://go.dev/
