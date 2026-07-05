@@ -209,7 +209,7 @@ https://github.com/redis
 [資料庫 Redis 應用軟體官方 GitHub 網站倉庫](https://github.com/redis/redis): 
 https://github.com/redis/redis.git
 
-Code Editor : Code-Server , Jupyter-Notebook , Visual Studio Code
+Code editor tool : Code-Server , Jupyter-Notebook , Visual Studio Code
 
 Code Editor : Code-Server
 
