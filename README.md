@@ -155,22 +155,22 @@ https://github.com/JuliaRegistries/General.git
 
 Compiler : Go
 
-[程式設計 Go 語言解釋器 ( Interpreter ) 官方網站](https://go.dev/): 
+[程式設計 Go 語言編譯器 ( Compiler ) 官方網站](https://go.dev/): 
 https://go.dev/
 
-[程式設計 Go 語言解釋器 ( Interpreter ) 官方下載頁](https://go.dev/dl/): 
+[程式設計 Go 語言編譯器 ( Compiler ) 官方下載頁](https://go.dev/dl/): 
 https://go.dev/dl/
 
-[程式設計 Go 語言解釋器 ( Interpreter ) 官方用戶手冊頁](https://go.dev/doc/): 
+[程式設計 Go 語言編譯器 ( Compiler ) 官方用戶手冊頁](https://go.dev/doc/): 
 https://go.dev/doc/
 
-[程式設計 Go 語言解釋器 ( Interpreter ) 官方 GitHub 網站賬戶](https://github.com/golang): 
+[程式設計 Go 語言編譯器 ( Compiler ) 官方 GitHub 網站賬戶](https://github.com/golang): 
 https://github.com/golang
 
-[程式設計 Go 語言解釋器 ( Interpreter ) 官方 GitHub 網站倉庫](https://github.com/golang/go): 
+[程式設計 Go 語言編譯器 ( Compiler ) 官方 GitHub 網站倉庫](https://github.com/golang/go): 
 https://github.com/golang/go.git
 
-[程式設計 Go 語言解釋器 ( Interpreter ) 第三方擴展模組 ( module ) ( packages ) 托管網站官方手冊](https://pkg.go.dev/golang.org/x/mod/module): 
+[程式設計 Go 語言編譯器 ( Compiler ) 第三方擴展模組 ( module ) ( packages ) 托管網站官方手冊](https://pkg.go.dev/golang.org/x/mod/module): 
 https://pkg.go.dev/golang.org/x/mod/module
 
 Database : MariaDB
@@ -207,19 +207,17 @@ https://github.com/redis
 [資料庫 Redis 應用軟體官方 GitHub 網站倉庫](https://github.com/redis/redis): 
 https://github.com/redis/redis.git
 
-Code Editor : Visual Studio Code , Code-Server , Jupyter-Notebook , Wcode
+Code Editor : Code-Server , Jupyter-Notebook , Visual Studio Code
 
-[代碼編輯器 ( Code Editor ) 之  Visual Studio Code 官方網站](https://code.visualstudio.com/): 
-https://code.visualstudio.com/
-
-[代碼編輯器 ( Code Editor ) 之  Visual Studio Code 官方 GitHub 網站倉庫](https://github.com/microsoft/vscode): 
-https://github.com/microsoft/vscode.git
+Code Editor : Code-Server
 
 [代碼編輯器 ( Code Editor ) 之  Code-Server 官方網站](https://coder.com/): 
 https://coder.com/
 
 [代碼編輯器 ( Code Editor ) 之  Code-Server 官方 GitHub 網站倉庫](https://github.com/coder/code-server): 
 https://github.com/coder/code-server.git
+
+Code Editor : Jupyter-Notebook
 
 [代碼編輯器 ( Code Editor ) 之  Jupyter-Notebook 官方網站](https://jupyter.org/): 
 https://jupyter.org/
@@ -230,8 +228,13 @@ https://docs.jupyter.org/en/latest/
 [代碼編輯器 ( Code Editor ) 之  Jupyter-Notebook 官方 GitHub 網站倉庫](https://github.com/jupyter/notebook): 
 https://github.com/jupyter/notebook.git
 
-[代碼編輯器 ( Code Editor ) 之  Wcode 官方 GitHub 網站倉庫](https://github.com/fmsouza/wcode): 
-https://github.com/fmsouza/wcode.git
+Code Editor : Visual Studio Code
+
+[代碼編輯器 ( Code Editor ) 之  Visual Studio Code 官方網站](https://code.visualstudio.com/): 
+https://code.visualstudio.com/
+
+[代碼編輯器 ( Code Editor ) 之  Visual Studio Code 官方 GitHub 網站倉庫](https://github.com/microsoft/vscode): 
+https://github.com/microsoft/vscode.git
 
 ---
 
