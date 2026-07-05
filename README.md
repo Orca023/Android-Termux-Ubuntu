@@ -1,5 +1,5 @@
 ## Android → Termux → Ubuntu
-#### Android → Termux : OpenSSH , tmux , CLang , Node.js , Python , Jupyter
+#### Android → Termux : OpenSSH , tmux , Clang , Node.js , Python , Jupyter
 #### Android → Termux → Ubuntu : OpenSSH , shellinabox , tmux , Redis , MariaDB , GCC , Node.js , Python , Julia , Go , Code-Server , Jupyter
 ---
 
