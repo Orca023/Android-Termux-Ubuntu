@@ -170,22 +170,22 @@ https://github.com/MariaDB
 [資料庫 MariaDB 應用軟體官方 GitHub 網站倉庫](https://github.com/MariaDB/server): 
 https://github.com/MariaDB/server.git
 
-Database : MongoDB
+Database : Redis
 
-[資料庫 MongoDB 應用軟體官方網站](https://www.mongodb.com/): 
-https://www.mongodb.com/
+[資料庫 Redis 應用軟體官方網站](https://redis.io/): 
+https://redis.io/
 
-[資料庫 MongoDB 應用軟體官方手冊](https://www.mongodb.com/docs/manual/): 
-https://www.mongodb.com/docs/manual/
+[資料庫 Redis 應用軟體官方手冊](https://redis.io/docs/latest/develop/get-started/document-database/): 
+https://redis.io/docs/latest/develop/get-started/document-database/
 
-[資料庫 MongoDB 應用軟體下載官方網站](https://www.mongodb.com/try/download/community): 
-https://www.mongodb.com/try/download/community
+[資料庫 Redis 應用軟體下載安裝官方網站](https://redis.io/docs/latest/operate/oss_and_stack/install/install-stack/): 
+https://redis.io/docs/latest/operate/oss_and_stack/install/install-stack/
 
-[資料庫 MongoDB 應用軟體官方 GitHub 網站賬戶](https://github.com/mongodb): 
-https://github.com/mongodb
+[資料庫 Redis 應用軟體官方 GitHub 網站賬戶](https://github.com/redis): 
+https://github.com/redis
 
-[資料庫 MongoDB 應用軟體官方 GitHub 網站倉庫](https://github.com/mongodb/mongo): 
-https://github.com/mongodb/mongo.git
+[資料庫 Redis 應用軟體官方 GitHub 網站倉庫](https://github.com/redis/redis): 
+https://github.com/redis/redis.git
 
 Code Editor : Visual Studio Code , Code-Server , Jupyter-Notebook , Wcode
 
