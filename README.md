@@ -153,6 +153,26 @@ https://julialang.org/packages/
 [程式設計 Julia 語言解釋器 ( Interpreter ) 官方 General.jl 模組 GitHub 網站倉庫](https://github.com/JuliaRegistries/General): 
 https://github.com/JuliaRegistries/General.git
 
+Interpreter : Go
+
+[程式設計 Go 語言解釋器 ( Interpreter ) 官方網站](https://go.dev/): 
+https://go.dev/
+
+[程式設計 Go 語言解釋器 ( Interpreter ) 官方下載頁](https://go.dev/dl/): 
+https://go.dev/dl/
+
+[程式設計 Go 語言解釋器 ( Interpreter ) 官方用戶手冊頁](https://go.dev/doc/): 
+https://go.dev/doc/
+
+[程式設計 Go 語言解釋器 ( Interpreter ) 官方 GitHub 網站賬戶](https://github.com/golang): 
+https://github.com/golang
+
+[程式設計 Go 語言解釋器 ( Interpreter ) 官方 GitHub 網站倉庫](https://github.com/golang/go): 
+https://github.com/golang/go.git
+
+[程式設計 Go 語言解釋器 ( Interpreter ) 第三方擴展模組 ( module ) ( packages ) 托管網站官方手冊](https://pkg.go.dev/golang.org/x/mod/module): 
+https://pkg.go.dev/golang.org/x/mod/module
+
 Database : MariaDB
 
 [資料庫 MariaDB 應用軟體官方網站](https://mariadb.com/): 
