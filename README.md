@@ -339,7 +339,15 @@ python - pip - packages :
 
 11. 最後, 在智能電話 google-pixel-2 搭載的 Android-11 系統中, 重新啓動已經安裝配置成功的 Termux-0.118 作業系統 ( Operating System ) 終端模擬器 ( Terminal Emulator ) 應用 ( Termux ) 即可 :
 
-12. 可在智能電話 google-pixel-2 搭載的 android-11 → termux-0.118 作業系統 ( Operating System ) 終端模擬器 ( Terminal Emulator ) 中, 執行如下指令, 在 android-11 → termux-0.118 作業系統 ( Operating System ) 後臺隱藏啓動運行 SSHD 伺服器應用 :
+12. 可在智能電話 google-pixel-2 搭載的 android-11 → termux-0.118 作業系統 ( Operating System ) 終端模擬器 ( Terminal Emulator ) 中, 後臺隱藏啓動運行 SSHD 伺服器應用 :
+
+    首先, 執行如下指令, 自定義設定遠程鏈接的驗證密碼, 從 Windows 作業系統 ( Operating System ) 遠程接入 android-11 → termux-0.118 作業系統 ( Operating System ) 時驗證使用 :
+
+```
+    /data/data/com.termux/files/home $ passwd
+```
+
+    然後, 執行如下指令, 在 android-11 → termux-0.118 作業系統 ( Operating System ) 後臺隱藏啓動運行 SSHD 伺服器應用 :
 
 ```
     /data/data/com.termux/files/home $ /data/data/com.termux/files/usr/bin/sshd
