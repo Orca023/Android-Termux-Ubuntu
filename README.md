@@ -285,7 +285,7 @@ termux-exec
 net-tools
 openssh
 openssl-tool
-ttyd - 1.6.3
+ttyd - 1.7.7
 busybox
 bash
 proot-distro
