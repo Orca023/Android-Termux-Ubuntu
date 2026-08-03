@@ -285,7 +285,7 @@ termux-exec
 net-tools
 openssh
 openssl-tool
-shellinabox - 2.21
+ttyd - 1.6.3
 busybox
 bash
 proot-distro
@@ -420,7 +420,7 @@ dpkg
 tmux
 openssh-server
 openssh-client
-shellinabox - 2.21
+ttyd - 1.6.3
 net-tools
 lsb-release（LSB：Linux Standard Base）
 lsb-core（LSB：Linux Standard Base）
