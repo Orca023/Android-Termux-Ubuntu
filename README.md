@@ -723,7 +723,7 @@ nodejs - npm - packages :
     root@localhost:~# /etc/init.d/mariadb stop
 ```
 
-    即可返回至智能電話 google-pixel-2 搭載的 android-11 → termux-0.118 → ubuntu-22.04 作業系統 ( Operating System ) 控制臺 ( Bash ) 窗口.
+    智能電話 google-pixel-2 搭載的 android-11 → termux-0.118 → ubuntu-22.04 作業系統 ( Operating System ) 控制臺 ( Bash ) 窗口, 即可回到空閑待機 ( Stand by ) 狀態.
 
 ---
 
