@@ -412,6 +412,31 @@ python - pip - packages :
     /data/data/com.termux/files/home $ pkill sshd
 ```
 
+13. 可在智能電話 google-pixel-2 搭載的 android-11 → termux-0.118 作業系統 ( Operating System ) 終端模擬器 ( Terminal Emulator ) 中, 啓動運行瀏覽器 ( Browser ) 遠程鏈接控制臺命令行 ( Command-line ) 終端 ( terminal ) 工具 ttyd 伺服器應用 :
+
+    可以使用類似如下格式的指令, 在 android-11 → termux-0.118 作業系統 ( Operating System ) 啓動運行 ttyd 伺服器應用 :
+
+```
+    /data/data/com.termux/files/home $ /data/data/com.termux/files/usr/bin/ttyd --writable --ipv6 --ping-interval 5 --max-clients 3 --interface 0.0.0.0 --port 7681 --cwd /data/data/com.termux/files/home/ --credential username:password bash
+```
+
+    之後, 可在瀏覽器 ( Browser ) 應用地址欄 ( Address ) 使用類似如下格式的網址 ( Uniform Resource Locator , URL ) 值, 遠程接入 android-11 → termux-0.118 作業系統 ( Operating System ) 正在運行的瀏覽器 ( Browser ) 遠程鏈接控制臺命令行 ( Command-line ) 終端 ( terminal ) 工具 ttyd 伺服器 :
+
+```
+    http://[::1]:7681/index.html
+```
+```
+    http://127.0.0.1:7681/index.html
+```
+
+    可在智能電話 google-pixel-2 搭載的 android-11 → termux-0.118 作業系統 ( Operating System ) 終端模擬器 ( Terminal Emulator ) 中, 控制臺命令行輸入「Ctrl」+「c」退出正在運行的 ttyd 伺服器應用;
+
+    若 ttyd 伺服器應用在 android-11 → termux-0.118 作業系統 ( Operating System ) 後臺隱藏運行, 則可在智能電話 google-pixel-2 搭載的 android-11 → termux-0.118 作業系統 ( Operating System ) 終端模擬器 ( Terminal Emulator ) 中, 執行如下指令, 關閉終止正在 android-11 → termux-0.118 作業系統 ( Operating System ) 後臺隱藏運行的 ttyd 伺服器應用 :
+
+```
+    /data/data/com.termux/files/home $ pkill ttyd
+```
+
 二. 其中, 壓縮檔「 `google-pixel-2_android-11_termux-0.118_ubuntu-22.04-LTS-rootfs_arm64.tar.gz` 」是 arm64 架構 Termux-0.118 作業系統 ( Operating System ) 終端模擬器 ( Terminal Emulator ) 的子系統 Ubuntu-22.04-rootfs-arm64 作業系統 ( Operating System ) 的一個批處理 ( Bash ) 脚本「 `/data/data/com.termux/files/home/start-ubuntu.sh` 」啓動檔和兩個文件夾「 `/data/data/com.termux/files/home/ubuntu-fs/` 」和「 `/data/data/com.termux/files/home/ubuntu-binds/` 」的壓縮檔, 壓縮檔裏已經配置的應用如下 :
 
 ```
