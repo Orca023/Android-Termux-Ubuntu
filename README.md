@@ -420,7 +420,7 @@ python - pip - packages :
     /data/data/com.termux/files/home $ /data/data/com.termux/files/usr/bin/ttyd --writable --ipv6 --ping-interval 5 --max-clients 3 --interface 0.0.0.0 --port 7681 --cwd /data/data/com.termux/files/home/ --credential username:password bash
 ```
 
-    之後, 可在瀏覽器 ( Browser ) 應用地址欄 ( Address ) 使用類似如下格式的網址 ( Uniform Resource Locator , URL ) 值, 遠程接入 android-11 → termux-0.118 作業系統 ( Operating System ) 正在運行的瀏覽器 ( Browser ) 遠程鏈接控制臺命令行 ( Command-line ) 終端 ( terminal ) 工具 ttyd 伺服器 :
+    之後, 可在瀏覽器 ( Browser ) 應用地址欄 ( Address ) 使用類似如下格式的網址 ( Uniform Resource Locator , URL ) 值, 遠程接入智能電話 google-pixel-2 搭載的 android-11 → termux-0.118 作業系統 ( Operating System ) 正在運行的瀏覽器 ( Browser ) 遠程鏈接控制臺命令行 ( Command-line ) 終端 ( terminal ) 工具 ttyd 伺服器 :
 
 ```
     http://[::1]:7681/index.html
@@ -431,7 +431,7 @@ python - pip - packages :
 
     可在智能電話 google-pixel-2 搭載的 android-11 → termux-0.118 作業系統 ( Operating System ) 終端模擬器 ( Terminal Emulator ) 中, 控制臺命令行輸入「Ctrl」+「c」退出正在運行的 ttyd 伺服器應用;
 
-    若 ttyd 伺服器應用在 android-11 → termux-0.118 作業系統 ( Operating System ) 後臺隱藏運行, 則可在智能電話 google-pixel-2 搭載的 android-11 → termux-0.118 作業系統 ( Operating System ) 終端模擬器 ( Terminal Emulator ) 中, 執行如下指令, 關閉終止正在 android-11 → termux-0.118 作業系統 ( Operating System ) 後臺隱藏運行的 ttyd 伺服器應用 :
+    最後, 若 ttyd 伺服器應用, 在智能電話 google-pixel-2 搭載的 android-11 → termux-0.118 作業系統 ( Operating System ) 後臺隱藏運行, 則可在智能電話 google-pixel-2 搭載的 android-11 → termux-0.118 作業系統 ( Operating System ) 終端模擬器 ( Terminal Emulator ) 中, 執行如下指令, 關閉終止正在智能電話 google-pixel-2 搭載的 android-11 → termux-0.118 作業系統 ( Operating System ) 後臺, 隱藏運行的 ttyd 伺服器應用 :
 
 ```
     /data/data/com.termux/files/home $ pkill ttyd
@@ -629,7 +629,44 @@ nodejs - npm - packages :
     ~ $ /data/data/com.termux/files/home/start-ubuntu.sh
 ```
 
-11. 然後, 在智能電話 google-pixel-2 搭載的 android-11 → termux-0.118 → ubuntu-22.04 作業系統 ( Operating System ) 控制臺 ( Bash ) 窗口中, 執行如下指令, 即可啓動 `code-server` 代碼編輯器伺服器應用 :
+11. 可在智能電話 google-pixel-2 搭載的 android-11 → termux-0.118 → ubuntu-22.04 作業系統 ( Operating System ) 控制臺 ( Bash ) 窗口中, 執行如下指令, 啓動運行瀏覽器 ( Browser ) 遠程鏈接控制臺命令行 ( Command-line ) 終端 ( terminal ) 工具 `ttyd` 伺服器應用 :
+
+    通常使用類似如下格式的指令, 在智能電話 google-pixel-2 搭載的 android-11 → termux-0.118 → ubuntu-22.04 作業系統 ( Operating System ) 控制臺 ( Bash ) 啓動運行 `ttyd` 伺服器應用 :
+
+```
+    root@localhost:~# /usr/bin/ttyd --writable --ipv6 --ping-interval 5 --max-clients 3 --interface 0.0.0.0 --port 7681 --cwd /home/ --credential username:password bash
+```
+
+    之後, 可在瀏覽器 ( Browser ) 應用地址欄 ( Address ) 使用類似如下格式的網址 ( Uniform Resource Locator , URL ) 值, 遠程接入智能電話 google-pixel-2 搭載的 android-11 → termux-0.118 → ubuntu-22.04 作業系統 ( Operating System ) 正在運行的瀏覽器 ( Browser ) 遠程鏈接控制臺命令行 ( Command-line ) 終端 ( terminal ) 工具 `ttyd` 伺服器 :
+
+```
+    http://[::1]:7681/index.html
+```
+```
+    http://127.0.0.1:7681/index.html
+```
+
+    可在智能電話 google-pixel-2 搭載的 android-11 → termux-0.118 → ubuntu-22.04 作業系統 ( Operating System ) 終端模擬器 ( Terminal Emulator ) 中, 控制臺命令行輸入「Ctrl」+「c」退出正在運行的 `ttyd` 伺服器應用;
+
+    若 `ttyd` 伺服器應用, 在智能電話 google-pixel-2 搭載的 android-11 → termux-0.118 → ubuntu-22.04 作業系統 ( Operating System ) 後臺隱藏運行, 則在 `ttyd` 伺服器啓動之後, 控制臺會輸出返回值進程 ( Process ) 編號 ( Process Identifier,PID ) 值, 例如顯示爲類似此 : PID [ 15291 ] 格式, 記錄下這個編號值, 後續可在智能電話 google-pixel-2 搭載的 android-11 → termux-0.118 → ubuntu-22.04 作業系統 ( Operating System ) 終端模擬器 ( Terminal Emulator ) 中, 使用類似此 : kill 15291 指令, 關閉終止正在智能電話 google-pixel-2 搭載的 android-11 → termux-0.118 → ubuntu-22.04 作業系統 ( Operating System ) 後臺, 隱藏運行的 `ttyd` 伺服器應用 :
+
+```
+    root@localhost:~# kill 15291
+```
+
+    查看正在智能電話 google-pixel-2 搭載的 android-11 → termux-0.118 → ubuntu-22.04 作業系統 ( Operating System ) 後臺隱藏運行 ttyd 伺服器進程 ( Program ) 編號 ( Process Identifier,PID ) 值, 可在智能電話 google-pixel-2 搭載的 android-11 → termux-0.118 → ubuntu-22.04 作業系統 ( Operating System ) 控制臺使用類似如下指令 :
+
+```
+    root@localhost:~# ps aux | grep ttyd
+```
+或
+```
+    root@localhost:~# cat nohup.out
+```
+
+    智能電話 google-pixel-2 搭載的 android-11 → termux-0.118 → ubuntu-22.04 作業系統 ( Operating System ) 控制臺會輸出返回值顯示, 正在智能電話 google-pixel-2 搭載的 android-11 → termux-0.118 → ubuntu-22.04 作業系統 ( Operating System ) 後臺, 隱藏運行 ttyd 伺服器進程 ( Process ) 相關資訊, 其中會包含進程 ( Process ) 編號 ( Process Identifier,PID ) 值.
+
+12. 可在智能電話 google-pixel-2 搭載的 android-11 → termux-0.118 → ubuntu-22.04 作業系統 ( Operating System ) 控制臺 ( Bash ) 窗口中, 執行如下指令, 即可啓動 `code-server` 代碼編輯器伺服器應用 :
 
 ```
     root@localhost:~# /usr/bin/code-server --disable-telemetry --show-versions --auth none --extensions-dir /root/.local/share/code-server/extensions/ --user-data-dir /root/.local/share/code-server/ --config /root/.config/code-server/config.yaml --host 0.0.0.0 --port 8080
@@ -642,7 +679,7 @@ nodejs - npm - packages :
 
     在智能電話 google-pixel-2 搭載的 android-11 → termux-0.118 → ubuntu-22.04 作業系統 ( Operating System ) 控制臺 ( Bash ) 窗口中, 執行如下指令, 鍵盤同時輸入「 `Ctrl` + `c` 」鍵, 即可關閉 `code-server` 代碼編輯器伺服器, 返回至 Ubuntu-22.04 作業系統 ( Operating System ) 控制臺 ( Bash ) 命令列對話窗口.
 
-12. 然後, 在智能電話 google-pixel-2 搭載的 android-11 → termux-0.118 → ubuntu-22.04 作業系統 ( Operating System ) 控制臺 ( Bash ) 窗口中, 執行如下指令, 即可啓動程式設計語言「Python」原生版 `jupyter` 運算伺服器應用 :
+13. 可在智能電話 google-pixel-2 搭載的 android-11 → termux-0.118 → ubuntu-22.04 作業系統 ( Operating System ) 控制臺 ( Bash ) 窗口中, 執行如下指令, 即可啓動程式設計語言「Python」原生版 `jupyter` 運算伺服器應用 :
 
 ```
     root@localhost:~# /root/.local/bin/jupyter-notebook --allow-root --no-browser --config="/root/.jupyter/jupyter_notebook_config.py" --ip="0.0.0.0" --port="8888" --notebook-dir="/home/"
@@ -660,7 +697,7 @@ nodejs - npm - packages :
 
     在智能電話 google-pixel-2 搭載的 android-11 → termux-0.118 → ubuntu-22.04 作業系統 ( Operating System ) 控制臺 ( Bash ) 窗口中, 執行如下指令, 鍵盤同時輸入「 `Ctrl` + `c` 」鍵, 即可關閉 `jupyter` 運算伺服器, 返回至 Ubuntu-22.04 作業系統 ( Operating System ) 控制臺 ( Bash ) 命令列對話窗口.
 
-13. 然後, 在智能電話 google-pixel-2 搭載的 android-11 → termux-0.118 → ubuntu-22.04 作業系統 ( Operating System ) 控制臺 ( Bash ) 窗口中, 執行如下指令, 即可在後臺非阻塞隱藏啓動 `MariaDB` 資料庫伺服器應用 :
+14. 可在智能電話 google-pixel-2 搭載的 android-11 → termux-0.118 → ubuntu-22.04 作業系統 ( Operating System ) 控制臺 ( Bash ) 窗口中, 執行如下指令, 即可在後臺非阻塞隱藏啓動 `MariaDB` 資料庫伺服器應用 :
 
 ```
     root@localhost:~# /etc/init.d/mariadb start --defaults-extra-file=/etc/mysql/my.cnf
@@ -672,13 +709,13 @@ nodejs - npm - packages :
     root@localhost:~# /etc/init.d/mariadb stop
 ```
 
-14. 然後, 在智能電話 google-pixel-2 搭載的 android-11 → termux-0.118 → ubuntu-22.04 作業系統 ( Operating System ) 控制臺 ( Bash ) 窗口中, 執行如下指令, 即可退出 Ubuntu-22.04-rootfs-arm64 作業系統 ( Operating System ) 返回至 Termux-0.118 作業系統 ( Operating System ) 終端模擬器 ( Terminal Emulator ) 中 :
+15. 最後, 可在智能電話 google-pixel-2 搭載的 android-11 → termux-0.118 → ubuntu-22.04 作業系統 ( Operating System ) 控制臺 ( Bash ) 窗口中, 執行如下指令, 即可退出 Ubuntu-22.04-rootfs-arm64 作業系統 ( Operating System ) 返回至 Termux-0.118 作業系統 ( Operating System ) 終端模擬器 ( Terminal Emulator ) 中 :
 
 ```
     root@localhost:~# exit
 ```
 
-15. 然後, 在智能電話 google-pixel-2 搭載的 android-11 → termux-0.118 作業系統 ( Operating System ) 終端模擬器 ( Terminal Emulator ) 中, 執行如下指令, 退出 Termux-0.118 作業系統 ( Operating System ) 終端模擬器 ( Terminal Emulator ) 返回至 Android-11 作業系統 ( Operating System ) 桌面 :
+16. 最後, 在智能電話 google-pixel-2 搭載的 android-11 → termux-0.118 作業系統 ( Operating System ) 終端模擬器 ( Terminal Emulator ) 中, 執行如下指令, 退出 Termux-0.118 作業系統 ( Operating System ) 終端模擬器 ( Terminal Emulator ) 返回至 Android-11 作業系統 ( Operating System ) 桌面 :
 
 ```
     ~ $ exit
