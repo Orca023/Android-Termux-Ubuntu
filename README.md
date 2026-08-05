@@ -255,6 +255,11 @@ https://code.visualstudio.com/
 [代碼編輯器 ( Code Editor ) 之  Visual Studio Code 官方 GitHub 網站倉庫](https://github.com/microsoft/vscode): 
 https://github.com/microsoft/vscode.git
 
+Command-line terminal over the web tool : ttyd
+
+[瀏覽器 ( Browser ) 遠程鏈接控制臺命令行 ( Command-line ) 終端 ( terminal ) 工具 ttyd 官方 GitHub 網站倉庫](https://github.com/tsl0922/ttyd): 
+https://github.com/tsl0922/ttyd.git
+
 ---
 
 作業系統 ( Operating System ) : Android → Termux → Ubuntu 工具 [百度網盤(pan.baidu.com)](https://pan.baidu.com/s/1sCS63lDJG0hX6yadYEhK5A?pwd=2qq8) 下載頁: 
