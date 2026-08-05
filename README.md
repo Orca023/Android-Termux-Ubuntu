@@ -629,7 +629,7 @@ nodejs - npm - packages :
     ~ $ /data/data/com.termux/files/home/start-ubuntu.sh
 ```
 
-11. 然後, 可在智能電話 google-pixel-2 搭載的 android-11 → termux-0.118 → ubuntu-22.04 作業系統 ( Operating System ) 控制臺 ( Bash ) 窗口中, 執行如下指令, 即可退出 Ubuntu-22.04-rootfs-arm64 作業系統 ( Operating System ) 返回至 Termux-0.118 作業系統 ( Operating System ) 終端模擬器 ( Terminal Emulator ) 中 :
+11. 最後, 在智能電話 google-pixel-2 搭載的 android-11 → termux-0.118 → ubuntu-22.04 作業系統 ( Operating System ) 控制臺 ( Bash ) 窗口中, 執行如下指令, 即可退出 Ubuntu-22.04-rootfs-arm64 作業系統 ( Operating System ) 返回至 Termux-0.118 作業系統 ( Operating System ) 終端模擬器 ( Terminal Emulator ) 中 :
 
 ```
     root@localhost:~# exit
