@@ -641,7 +641,7 @@ nodejs - npm - packages :
     ~ $ exit
 ```
 
-即可返回至 Android-11 作業系統 ( Operating System ) 桌面.
+即可返回至 Android-11 作業系統 ( Operating System ) 桌面;
 
 13. 可在智能電話 google-pixel-2 搭載的 android-11 → termux-0.118 → ubuntu-22.04 作業系統 ( Operating System ) 控制臺 ( Bash ) 窗口中, 執行如下指令, 啓動運行瀏覽器 ( Browser ) 遠程鏈接控制臺命令行 ( Command-line ) 終端 ( terminal ) 工具 `ttyd` 伺服器應用 :
 
