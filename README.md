@@ -425,17 +425,12 @@ python - pip - packages :
 ```
     http://[::1]:7681/index.html
 ```
+或
 ```
     http://127.0.0.1:7681/index.html
 ```
 
-    可在智能電話 google-pixel-2 搭載的 android-11 → termux-0.118 作業系統 ( Operating System ) 終端模擬器 ( Terminal Emulator ) 中, 控制臺命令行輸入「Ctrl」+「c」退出正在運行的 `ttyd` 伺服器應用;
-
-    最後, 若 ttyd 伺服器應用, 在智能電話 google-pixel-2 搭載的 android-11 → termux-0.118 作業系統 ( Operating System ) 後臺隱藏運行, 則可在智能電話 google-pixel-2 搭載的 android-11 → termux-0.118 作業系統 ( Operating System ) 終端模擬器 ( Terminal Emulator ) 中, 執行如下指令, 關閉終止正在智能電話 google-pixel-2 搭載的 android-11 → termux-0.118 作業系統 ( Operating System ) 後臺, 隱藏運行的 `ttyd` 伺服器應用 :
-
-```
-    /data/data/com.termux/files/home $ pkill ttyd
-```
+    最後, 在智能電話 google-pixel-2 搭載的 android-11 → termux-0.118 作業系統 ( Operating System ) 終端模擬器 ( Terminal Emulator ) 命令行, 輸入「Ctrl」+「c」即可退出正在運行的 `ttyd` 伺服器應用;
 
 二. 其中, 壓縮檔「 `google-pixel-2_android-11_termux-0.118_ubuntu-22.04-LTS-rootfs_arm64.tar.gz` 」是 arm64 架構 Termux-0.118 作業系統 ( Operating System ) 終端模擬器 ( Terminal Emulator ) 的子系統 Ubuntu-22.04-rootfs-arm64 作業系統 ( Operating System ) 的一個批處理 ( Bash ) 脚本「 `/data/data/com.termux/files/home/start-ubuntu.sh` 」啓動檔和兩個文件夾「 `/data/data/com.termux/files/home/ubuntu-fs/` 」和「 `/data/data/com.termux/files/home/ubuntu-binds/` 」的壓縮檔, 壓縮檔裏已經配置的應用如下 :
 
@@ -656,29 +651,12 @@ nodejs - npm - packages :
 ```
     http://[::1]:7681/index.html
 ```
+或
 ```
     http://127.0.0.1:7681/index.html
 ```
 
-    可在智能電話 google-pixel-2 搭載的 android-11 → termux-0.118 → ubuntu-22.04 作業系統 ( Operating System ) 終端模擬器 ( Terminal Emulator ) 中, 控制臺命令行輸入「Ctrl」+「c」退出正在運行的 `ttyd` 伺服器應用;
-
-    若 `ttyd` 伺服器應用, 在智能電話 google-pixel-2 搭載的 android-11 → termux-0.118 → ubuntu-22.04 作業系統 ( Operating System ) 後臺隱藏運行, 則在 `ttyd` 伺服器啓動之後, 控制臺會輸出返回值進程 ( Process ) 編號 ( Process Identifier,PID ) 值, 例如顯示爲類似此 : PID [ 15291 ] 格式, 記錄下這個編號值, 後續可在智能電話 google-pixel-2 搭載的 android-11 → termux-0.118 → ubuntu-22.04 作業系統 ( Operating System ) 終端模擬器 ( Terminal Emulator ) 中, 使用類似此 : kill 15291 指令, 關閉終止正在智能電話 google-pixel-2 搭載的 android-11 → termux-0.118 → ubuntu-22.04 作業系統 ( Operating System ) 後臺, 隱藏運行的 `ttyd` 伺服器應用 :
-
-```
-    root@localhost:~# kill 15291
-```
-
-    查看正在智能電話 google-pixel-2 搭載的 android-11 → termux-0.118 → ubuntu-22.04 作業系統 ( Operating System ) 後臺隱藏運行 ttyd 伺服器進程 ( Program ) 編號 ( Process Identifier,PID ) 值, 可在智能電話 google-pixel-2 搭載的 android-11 → termux-0.118 → ubuntu-22.04 作業系統 ( Operating System ) 控制臺使用類似如下指令 :
-
-```
-    root@localhost:~# ps aux | grep ttyd
-```
-或
-```
-    root@localhost:~# cat nohup.out
-```
-
-    智能電話 google-pixel-2 搭載的 android-11 → termux-0.118 → ubuntu-22.04 作業系統 ( Operating System ) 控制臺會輸出返回值顯示, 正在智能電話 google-pixel-2 搭載的 android-11 → termux-0.118 → ubuntu-22.04 作業系統 ( Operating System ) 後臺, 隱藏運行 ttyd 伺服器進程 ( Process ) 相關資訊, 其中會包含進程 ( Process ) 編號 ( Process Identifier,PID ) 值.
+    最後, 在智能電話 google-pixel-2 搭載的 android-11 → termux-0.118 → ubuntu-22.04 作業系統 ( Operating System ) 終端模擬器 ( Terminal Emulator ) 命令行, 輸入「Ctrl」+「c」即可退出正在運行的 `ttyd` 伺服器應用.
 
 14. 可在智能電話 google-pixel-2 搭載的 android-11 → termux-0.118 → ubuntu-22.04 作業系統 ( Operating System ) 控制臺 ( Bash ) 窗口中, 執行如下指令, 即可啓動 `code-server` 代碼編輯器伺服器應用 :
 
