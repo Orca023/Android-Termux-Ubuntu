@@ -542,6 +542,9 @@ julia - Pkg - packages :
 nodejs ( nodejs-12.22.9-linux-aarch64 ) ( /usr/bin/node ) ( ln -s  /bin/node ) ( /usr/local/lib/node_modules/ )
 nodejs-npm ( npm-8.5.1-linux-aarch64 ) ( /usr/bin/npm ) ( ln -s  /bin/npm ) ( /usr/local/lib/node_modules/ )
 nodejs - npm - packages :
+    mathjs - 15.2.0
+    d3 - 7.9.0
+    ml - 8.0.0
     ijavascript - 5.2.1
     mariadb - 3.5.2
     mysql - 2.18.1
