@@ -303,11 +303,17 @@ curl
 dpkg
 tar
 tmux
+nodejs - 26.4.0
+nodejs-npm - 11.19.1
+nodejs - npm - packages :
+    mathjs - 15.2.0
+    d3 - 7.9.0
+    ml - 8.0.0
 python - 3.11.9
 python-pip - 24.0
 python - pip - packages :
-    jupyter - 6.5.3
     tk
+    jupyter - 6.5.3
 ```
 
 壓縮檔「 `google-pixel-2_android-11_termux-0.118_arm64.tar.gz` 」使用説明 :
