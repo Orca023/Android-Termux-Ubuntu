@@ -262,7 +262,7 @@ https://github.com/tsl0922/ttyd.git
 
 Application‌ runtime based on Chromium and node.js : NW.js
 
-[使用 Javascript 和 HTML 語言開發桌面窗口 ( Window ) 應用框架 NW.js 官方 GitHub 網站倉庫](https://github.com/nwjs/nw.js): 
+[使用 Javascript 與 HTML 語言開發桌面窗口 ( Window ) 應用框架 NW.js 官方 GitHub 網站倉庫](https://github.com/nwjs/nw.js): 
 https://github.com/nwjs/nw.js.git
 
 ---
